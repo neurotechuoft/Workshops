@@ -1,3 +1,10 @@
+##########################################################################
+# This program imitates the game from the Arduino's perspective
+# It reads data sent from the Arduino, and prints the results to
+# test the output.
+# To imitate the 30 fps of the actual game, the main loop has a 33 ms wait.
+##########################################################################
+
 import serial
 import time
 
@@ -13,7 +20,8 @@ def get_emg_sample():
     serialArduino.write(('?').encode('utf-8'))
 
     # inWaiting() returns the number of bytes available to read from
-    # the serial buffer.
+    # the serial buffer (In Arduino, serial.available() provides the same
+    # functionality)
     # We wait for 1000 counts then stop if nothing is available.
     # This timeout prevents us from waiting forever if there is some problem
     cnt = 0
@@ -26,6 +34,9 @@ def get_emg_sample():
         data = 0                                     # If we reached our timeout, assign data to 0, because there is nothing to read
     else:
         data = int(serialArduino.readline().strip()) # Otherwise, read whatever we saw in the serial buffer
+                                                     # and cast it into an integer.
+                                                     # .strip() removes the trailing line break \n sent by 
+                                                     # by the Arduino with Serial.println(). 
 
     return data
 
