@@ -16,7 +16,7 @@ import { Observable, Subject } from 'rxjs';
 
 export class GraphComponent implements OnInit {
 
-  // initialize variables
+  // declare muse connection variables
   private muse = new MuseClient();
 
   readonly channels = 4;
@@ -28,11 +28,9 @@ export class GraphComponent implements OnInit {
   ch3 = new Array<number>(256);
   ch4 = new Array<number>(256);
 
-
-
-
   data: Observable<EEGSample> | null;
 
+  // declare image variables
   front_circles: any;
   front_texts: any;
   back_circles: any;
@@ -66,6 +64,7 @@ export class GraphComponent implements OnInit {
 
   createModel() {
 
+    // initialize d3 svg
     this.svg = d3.select('svg');
     this.width = +this.svg.attr('width');
     this.height = +this.svg.attr('height');
@@ -80,6 +79,9 @@ export class GraphComponent implements OnInit {
     const top_y = c_y - c_radius;
     const bottom_y = c_y + c_radius;
 
+    /* draws the ten-tenty system to the background */
+
+    // the outer circle
     this.back_circle = this.svg.append('circle')
       .attr('r', c_radius)
       .attr('fill', 'none')
@@ -87,6 +89,7 @@ export class GraphComponent implements OnInit {
       .attr('cx', c_x)
       .attr('cy', c_y);
 
+    // the inner dashed circle
     this.inner_circle = this.svg.append('circle')
       .attr('r', i_radius)
       .attr('fill', 'none')
@@ -95,6 +98,7 @@ export class GraphComponent implements OnInit {
       .attr('cy', c_y)
       .style('stroke-dasharray', ('6, 6'));
 
+    // the dashed horizontal line
     this.hor_line = this.svg.append('line')
       .attr('x1', left_x)
       .attr('y1', c_y)
@@ -103,6 +107,7 @@ export class GraphComponent implements OnInit {
       .style('stroke', 'black')
       .style('stroke-dasharray', ('6, 6'));
 
+    // the dashed vertical line
     this.ver_line = this.svg.append('line')
       .attr('x1', c_x)
       .attr('y1', top_y)
@@ -113,10 +118,10 @@ export class GraphComponent implements OnInit {
 
     // this.node_names = nodes.map(a => a['id']);
 
-    console.log(this.node_names);
-
+    // a container for the static electrodes drawn in the back
     this.back = this.svg.append('g');
 
+    // the electrodes the Muse does not receive signal from
     this.back_circles = this.back.selectAll('circles')
       .data(node_data['back_nodes'])
       .enter()
@@ -127,6 +132,7 @@ export class GraphComponent implements OnInit {
       .style('fill', 'white')
       .style('stroke', 'grey');
 
+    // the name of the electrodes in text
     this.back_texts = this.back.selectAll('text')
       .data(node_data['back_nodes'])
       .enter()
@@ -139,6 +145,7 @@ export class GraphComponent implements OnInit {
       .attr('align', 'center')
       .attr('fill', 'grey');
 
+    // container for the four dynamic electrodes that Muse receive signal from
     this.front = this.svg.append('g');
 
     this.front_circles = this.front.selectAll('circles')
@@ -163,26 +170,27 @@ export class GraphComponent implements OnInit {
       .attr('font-size', '18px')
       .attr('align', 'center')
       .attr('fill', 'black');
-
   }
 
+  /* stop receiving input (right now just stops animation) */
   endReceive() {
-    this.receive = false;
 
+    this.receive = false;
     this.svg.selectAll('.anime').remove();
 
   }
 
-
-
+  /* start to receive input (right now starts random animation) */
   startReceive() {
 
     this.receive = true;
 
+    // a container for the animation (color change) work on the electrodes
     this.animation = this.svg.append('g');
 
     const colors = [0, 2, 4, 8];
 
+    // draws another layer of colored nodes on the four active nodes
     const nodes = this.animation.selectAll('circles')
       .data(node_data['front_nodes'])
       .enter()
@@ -216,6 +224,7 @@ export class GraphComponent implements OnInit {
       });
   }
 
+  /* connects to the muse device */
   async connectMuse() {
     await this.muse.connect();
     await this.muse.start();
@@ -225,6 +234,7 @@ export class GraphComponent implements OnInit {
     this.stream();
   }
 
+  /* logs the data raw data received from Muse to the console */
   stream() {
     // this.muse.eegReadings
     //   .subscribe(eeg => console.log(eeg.slice(0, this.channels)));
@@ -245,5 +255,3 @@ export class GraphComponent implements OnInit {
 
 
 }
-
-
