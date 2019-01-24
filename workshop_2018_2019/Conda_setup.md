@@ -4,7 +4,7 @@ This guide is for getting Anaconda up and running on your local computer and rea
 Follow the instructions here to download and install Anaconda: https://docs.anaconda.com/anaconda/install/. You will be using this throughout the workshops.
 
 ## Confirm installation
-To verify that you installed correctly, try to run the Anaconda Navigator (see https://docs.anaconda.com/anaconda/install/verify-install/) Alternatively, try runnning "conda --version" in a Terminal window. It should respond with the version of conda you have installed.
+To verify that you installed correctly, try to run the Anaconda Navigator (see https://docs.anaconda.com/anaconda/install/verify-install/) Alternatively, try running "conda --version" in a Terminal window. You should be able to see the version of conda you have installed. If you get an error message, see: https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-conda.html
 
 # Environments
 In every project that you make, you will want to create a separate 'virtual environment' which will contain only the packages you need for the project.
