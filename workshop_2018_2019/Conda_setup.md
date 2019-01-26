@@ -11,7 +11,7 @@ https://docs.conda.io/projects/continuumio-conda/en/latest/user-guide/install/in
 To verify that you installed correctly, try to run the Anaconda Navigator (see https://docs.anaconda.com/anaconda/install/verify-install/) Alternatively, try running "conda --version" in a Terminal window. You should be able to see the version of conda you have installed. If you get an error message, see: https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-conda.html
 
 # Environments
-In every project that you make, you will want to create a separate 'virtual environment' which will contain only the packages you need for the project.
+In every project that you make, you will want to create a separate 'virtual environment' which will contain only the packages you need for the project. For the workshops, make an environment called *nt-env*.
 See here for how to setup and manage an environment with conda: https://conda.io/projects/conda/en/latest/user-guide/getting-started.html#managing-environments
 
 # Managing packages
