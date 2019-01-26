@@ -1,4 +1,4 @@
-This guide is for getting Miniconda (light weight version of Anaconda) up and running on your local computer and ready for starting a new project. If you have trouble at any point, most if not all the information can be found here: https://conda.io/projects/conda/en/latest/user-guide/getting-started.html
+This guide is for getting **Miniconda** (light weight version of Anaconda) up and running on your local computer and ready for starting a new project. If you have trouble at any point, most if not all the information can be found here: https://conda.io/projects/conda/en/latest/user-guide/getting-started.html
 
 # Installation
 Follow the instructions here to download and install Miniconda: https://docs.conda.io/projects/continuumio-conda/en/latest/user-guide/install/index.html. You will be using this throughout the workshops.
