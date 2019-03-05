@@ -22,6 +22,7 @@ Filtering noise, and an introduction to the Fast Fourier Transform
 
 Week 4: Intro to Neuroscience
 How neurons work (brief intro), neuroanatomy
+    Part I (Basics): https://prezi.com/view/RdfcOLXBP5OGB31zeFbt/
     Part II (Neuroanatomy): https://prezi.com/view/x5Wa2d2EKLPrAFFkhRNt/
 
 Week 5: Uncovering Oscillatory Processes in EEG
