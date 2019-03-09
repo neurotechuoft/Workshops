@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { GraphComponent } from './graph/graph.component';
+import { PapaParseModule } from 'ngx-papaparse';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -10,7 +12,9 @@ import { GraphComponent } from './graph/graph.component';
     GraphComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    PapaParseModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
