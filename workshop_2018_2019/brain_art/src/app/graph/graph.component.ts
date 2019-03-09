@@ -1,10 +1,13 @@
-import { Component, OnInit, ViewEncapsulation, ChangeDetectorRef } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation, ChangeDetectorRef, Injectable } from '@angular/core';
 import * as d3 from 'd3';
+import { Observable, Subject, of } from 'rxjs';
+import { Papa } from 'ngx-papaparse';
+import { HttpClient } from '@angular/common/http';
 
 import { node_data } from './data';
 
+import * as bcijs from 'bcijs/browser.js';
 import { channelNames, EEGSample, MuseClient, zipSamples } from 'muse-js';
-import { Observable, Subject } from 'rxjs';
 
 
 @Component({
@@ -29,8 +32,8 @@ export class GraphComponent implements OnInit {
   ch4 = new Array<number>(256);
 
   data: Observable<EEGSample> | null;
+  analyzed_data: any;
 
-  // declare image variables
   front_circles: any;
   front_texts: any;
   back_circles: any;
@@ -54,7 +57,7 @@ export class GraphComponent implements OnInit {
   receive = true;
 
 
-  constructor(private cd: ChangeDetectorRef) {
+  constructor(private papa: Papa, private http: HttpClient) {
   }
 
   ngOnInit() {
@@ -64,7 +67,6 @@ export class GraphComponent implements OnInit {
 
   createModel() {
 
-    // initialize d3 svg
     this.svg = d3.select('svg');
     this.width = +this.svg.attr('width');
     this.height = +this.svg.attr('height');
@@ -79,9 +81,6 @@ export class GraphComponent implements OnInit {
     const top_y = c_y - c_radius;
     const bottom_y = c_y + c_radius;
 
-    /* draws the ten-tenty system to the background */
-
-    // the outer circle
     this.back_circle = this.svg.append('circle')
       .attr('r', c_radius)
       .attr('fill', 'none')
@@ -89,7 +88,6 @@ export class GraphComponent implements OnInit {
       .attr('cx', c_x)
       .attr('cy', c_y);
 
-    // the inner dashed circle
     this.inner_circle = this.svg.append('circle')
       .attr('r', i_radius)
       .attr('fill', 'none')
@@ -98,7 +96,6 @@ export class GraphComponent implements OnInit {
       .attr('cy', c_y)
       .style('stroke-dasharray', ('6, 6'));
 
-    // the dashed horizontal line
     this.hor_line = this.svg.append('line')
       .attr('x1', left_x)
       .attr('y1', c_y)
@@ -107,7 +104,6 @@ export class GraphComponent implements OnInit {
       .style('stroke', 'black')
       .style('stroke-dasharray', ('6, 6'));
 
-    // the dashed vertical line
     this.ver_line = this.svg.append('line')
       .attr('x1', c_x)
       .attr('y1', top_y)
@@ -116,12 +112,8 @@ export class GraphComponent implements OnInit {
       .style('stroke', 'black')
       .style('stroke-dasharray', ('6, 6'));
 
-    // this.node_names = nodes.map(a => a['id']);
-
-    // a container for the static electrodes drawn in the back
     this.back = this.svg.append('g');
 
-    // the electrodes the Muse does not receive signal from
     this.back_circles = this.back.selectAll('circles')
       .data(node_data['back_nodes'])
       .enter()
@@ -132,20 +124,18 @@ export class GraphComponent implements OnInit {
       .style('fill', 'white')
       .style('stroke', 'grey');
 
-    // the name of the electrodes in text
     this.back_texts = this.back.selectAll('text')
       .data(node_data['back_nodes'])
       .enter()
       .append('text')
-      .attr('x', (d) => { return d['x'] - 13; })
-      .attr('y', (d) => { return d['y'] + 7; })
+      .attr('x', (d) => d['x'] - 13)
+      .attr('y', (d) => d['y'] + 7)
       .text((d) => d['id'])
       .attr('font-family', 'sans-serif')
       .attr('font-size', '18px')
       .attr('align', 'center')
       .attr('fill', 'grey');
 
-    // container for the four dynamic electrodes that Muse receive signal from
     this.front = this.svg.append('g');
 
     this.front_circles = this.front.selectAll('circles')
@@ -163,34 +153,59 @@ export class GraphComponent implements OnInit {
       .data(node_data['front_nodes'])
       .enter()
       .append('text')
-      .attr('x', (d) => { return d['x'] - 20; })
-      .attr('y', (d) => { return d['y'] + 7; })
+      .attr('x', (d) => d['x'] - 20)
+      .attr('y', (d) => d['y'] + 7)
       .text((d) => d['id'])
       .attr('font-family', 'sans-serif')
       .attr('font-size', '18px')
       .attr('align', 'center')
       .attr('fill', 'black');
+
   }
 
-  /* stop receiving input (right now just stops animation) */
-  endReceive() {
+  offLine() {
 
+    this.http.get('./assets/stare_blink.csv', {responseType: 'text'})
+      .subscribe(data => this.papa.parse(data, {
+        complete: (result) => {
+
+          const arr = Array<Array<Number>>();
+
+          for (let i = 1; i < result.data.length / 2; i++) {
+            arr.push(result.data[i * 2]);
+          }
+
+          const abp_data = Array<Array<Number>>();
+
+          for (let i = 0; i < arr.length; i++) {
+            abp_data.push(arr[i].slice(0, 4).map(Number));
+
+            if (i > 255) {
+
+              abp_data.shift();
+              console.log(bcijs.averageBandPowers(abp_data, 256, ['alpha', 'beta']));
+            }
+          }
+      }
+    }));
+
+  }
+
+  endReceive() {
     this.receive = false;
+
     this.svg.selectAll('.anime').remove();
 
   }
 
-  /* start to receive input (right now starts random animation) */
   startReceive() {
 
     this.receive = true;
 
-    // a container for the animation (color change) work on the electrodes
     this.animation = this.svg.append('g');
 
     const colors = [0, 2, 4, 8];
 
-    // draws another layer of colored nodes on the four active nodes
     const nodes = this.animation.selectAll('circles')
       .data(node_data['front_nodes'])
       .enter()
@@ -204,7 +219,7 @@ export class GraphComponent implements OnInit {
       .transition()
       // .attr('fill', 'none')
       // .attr('stroke', 'none')
-      .delay((d) => { return d['delay'] * 1000; })
+      .delay((d) => d['delay'] * 1000)
       .on('start', function repeat() {
 
         d3.active(this)
@@ -224,7 +239,6 @@ export class GraphComponent implements OnInit {
       });
   }
 
-  /* connects to the muse device */
   async connectMuse() {
     await this.muse.connect();
     await this.muse.start();
@@ -234,22 +248,39 @@ export class GraphComponent implements OnInit {
     this.stream();
   }
 
-  /* logs the data raw data received from Muse to the console */
   stream() {
-    // this.muse.eegReadings
-    //   .subscribe(eeg => console.log(eeg.slice(0, this.channels)));
-    this.data.subscribe(sample => {
-      console.log(sample.data.slice(0, this.channels));
 
-      // sample.data.slice(0, this.channels).forEach((electrode, index) => {
-      //   this.updateChannel(electrode, index);
-      // });
+    // const test_array = new Array<Array<number>> (256);
+    //
+    // for (let i = 0; i < 256; i++) {
+    //
+    //   test_array[i] = Array.from({length: 5}, () => Math.floor(Math.random() * 100));
+    // }
+    //
+    // console.log(bcijs.averageBandPowers(test_array, 256, ['alpha', 'beta']));
+
+    const data_array = new Array<Array<number>>();
+    let nxt_idx = 0;
+
+    this.data.subscribe({
+
+      next(sample) {
+
+        data_array.push(sample.data.slice(0, 4).map(Number));
+        nxt_idx += 1;
+
+        if (nxt_idx >= 255) {
+          this.analyzed_data = bcijs.averageBandPowers(data_array, 256, ['alpha', 'beta']);
+          console.log(this.analyzed_data);
+          data_array.shift();
+        }
+
+      },
+      complete () {
+        console.log('Finished receiving');
+      }
     });
   }
-
-  // updateChannel(amplitude: number, index: number) {
-  //
-  // }
 
 
 
