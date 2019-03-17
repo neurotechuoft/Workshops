@@ -12,6 +12,17 @@
   /*fill: #999;*/
 /*}*/
 
+body {
+  background-color: black;
+}
+
+svg {
+  width: 650px;
+  height: 600px;
+  background-image: url('./images/brain_dark.jpg');
+  background-repeat: no-repeat;
+}
+
 .links line {
   stroke: #999;
   stroke-opacity: 0.6;
@@ -28,8 +39,8 @@
   pointer-events: none;
 }
 
-.btn-grad {
-  background-image: linear-gradient(to right, #ED4264 0%, #FFEDBC 100%, #ED4264 100%);
+.button_data {
+  background-color: #79c42f;
   height: 50px;
   width: 20%;
   border-radius: 5px;
@@ -37,9 +48,50 @@
   font-size: 20px;
   font-weight: bold;
   border: none;
-  margin: 20px;
+  margin: 0px 0px 0px 50px;
 }
 
-.btn-grad:hover {
+.button_data:hover {
   background-position: right center;
 }
+
+.wave {
+  background-color: #e580cf;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  text-align: center;
+  padding: 0px 0px 0px 0px;
+  font-size: 16px;
+  font-family: Arial;
+  text-shadow: 0px 0px 0px;
+  margin: 30px 0px 0px 100px;
+  transition: 0.3s;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  width: 70px;
+  height: 70px;
+}
+.wave span{
+  position: relative;
+  top: 24px;
+}
+
+.alpha:hover {
+  background-color: #9900cc;
+}
+
+.wave_buttons {
+  width: 80px;
+  float: left;
+  margin: 10px;
+}
+
+.parent {
+  height: 100%;
+  width: 100%;
+  vertical-align: middle;
+  background-color: black;
+}
+

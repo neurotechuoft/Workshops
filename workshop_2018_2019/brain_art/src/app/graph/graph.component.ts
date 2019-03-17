@@ -1,13 +1,14 @@
-import { Component, OnInit, ViewEncapsulation, ChangeDetectorRef, Injectable } from '@angular/core';
+import {Component, OnInit, ViewEncapsulation} from '@angular/core';
 import * as d3 from 'd3';
-import { Observable, Subject, of } from 'rxjs';
+
+import { Observable } from 'rxjs';
 import { Papa } from 'ngx-papaparse';
 import { HttpClient } from '@angular/common/http';
 
 import { node_data } from './data';
 
 import * as bcijs from 'bcijs/browser.js';
-import { channelNames, EEGSample, MuseClient, zipSamples } from 'muse-js';
+import { EEGSample, MuseClient, zipSamples } from 'muse-js';
 
 
 @Component({
@@ -22,39 +23,28 @@ export class GraphComponent implements OnInit {
   // declare muse connection variables
   private muse = new MuseClient();
 
-  readonly channels = 4;
-  readonly channelNames = channelNames.slice(0, this.channels);
-
-  channel_ind = 0;
-  ch1 = new Array<number>(256);
-  ch2 = new Array<number>(256);
-  ch3 = new Array<number>(256);
-  ch4 = new Array<number>(256);
-
   data: Observable<EEGSample> | null;
-  analyzed_data: any;
+
+  cur_data = new Array<number>();
+  cur_wave: number;
+  wave_color: number;
+
+  abp_color: any;
+  abp = new Array<number>();
+  first_abp = new Array<number>();
+  started_flag: any;
+  opacity: any;
 
   front_circles: any;
   front_texts: any;
   back_circles: any;
-  back_texts: any;
 
   svg: any;
-  back: any;
+  margin: any;
   front: any;
-  animation: any;
-
+  back: any;
   width: any;
   height: any;
-  color: any;
-
-  back_circle: any;
-  inner_circle: any;
-  hor_line: any;
-  ver_line: any;
-
-  node_names: any;
-  receive = true;
 
 
   constructor(private papa: Papa, private http: HttpClient) {
@@ -70,71 +60,27 @@ export class GraphComponent implements OnInit {
     this.svg = d3.select('svg');
     this.width = +this.svg.attr('width');
     this.height = +this.svg.attr('height');
-    this.color = d3.scaleOrdinal(d3.schemePaired);
+    this.margin = {top: 20, right: 20, bottom: 20, left: 20};
 
-    const c_radius = 250;
-    const i_radius = 210;
-    const c_x = this.width / 2;
-    const c_y = this.height / 2;
-    const left_x = c_x - c_radius;
-    const right_x = c_x + c_radius;
-    const top_y = c_y - c_radius;
-    const bottom_y = c_y + c_radius;
-
-    this.back_circle = this.svg.append('circle')
-      .attr('r', c_radius)
-      .attr('fill', 'none')
-      .attr('stroke', 'black')
-      .attr('cx', c_x)
-      .attr('cy', c_y);
-
-    this.inner_circle = this.svg.append('circle')
-      .attr('r', i_radius)
-      .attr('fill', 'none')
-      .attr('stroke', 'black')
-      .attr('cx', c_x)
-      .attr('cy', c_y)
-      .style('stroke-dasharray', ('6, 6'));
-
-    this.hor_line = this.svg.append('line')
-      .attr('x1', left_x)
-      .attr('y1', c_y)
-      .attr('x2', right_x)
-      .attr('y2', c_y)
-      .style('stroke', 'black')
-      .style('stroke-dasharray', ('6, 6'));
-
-    this.ver_line = this.svg.append('line')
-      .attr('x1', c_x)
-      .attr('y1', top_y)
-      .attr('x2', c_x)
-      .attr('y2', bottom_y)
-      .style('stroke', 'black')
-      .style('stroke-dasharray', ('6, 6'));
+    this.abp_color = ['#4193c6', '#cc4fb1', '#46bc3e', '#833fc1', '#e28009'];
+    this.started_flag = 0;
+    this.cur_wave = 0;
+    this.wave_color = 0;
+    this.opacity = 0.5;
 
     this.back = this.svg.append('g');
 
     this.back_circles = this.back.selectAll('circles')
-      .data(node_data['back_nodes'])
+      .data(node_data['front_nodes'])
       .enter()
       .append('circle')
+      .attr('class', 'back_circle')
       .attr('r', 23)
       .attr('cx', (d) => d['x'])
       .attr('cy', (d) => d['y'])
       .style('fill', 'white')
-      .style('stroke', 'grey');
-
-    this.back_texts = this.back.selectAll('text')
-      .data(node_data['back_nodes'])
-      .enter()
-      .append('text')
-      .attr('x', (d) => d['x'] - 13)
-      .attr('y', (d) => d['y'] + 7)
-      .text((d) => d['id'])
-      .attr('font-family', 'sans-serif')
-      .attr('font-size', '18px')
-      .attr('align', 'center')
-      .attr('fill', 'grey');
+      .style('stroke', 'white')
+      .style('stroke-width', 1.5);
 
     this.front = this.svg.append('g');
 
@@ -142,11 +88,12 @@ export class GraphComponent implements OnInit {
       .data(node_data['front_nodes'])
       .enter()
       .append('circle')
+      .attr('class', 'muse_circle')
       .attr('r', 23)
       .attr('cx', (d) => d['x'])
       .attr('cy', (d) => d['y'])
       .style('fill', 'white')
-      .style('stroke', 'black')
+      .style('stroke', 'white')
       .style('stroke-width', 1.5);
 
     this.front_texts = this.front.selectAll('text')
@@ -163,6 +110,85 @@ export class GraphComponent implements OnInit {
 
   }
 
+  setAlpha() {
+    this.cur_wave = 0;
+    this.wave_color = 0;
+
+    console.log('current wave: ' + this.cur_wave);
+  }
+
+  setBeta() {
+    this.cur_wave = 1;
+    this.wave_color = 1;
+
+    console.log('current wave: ' + this.cur_wave);
+  }
+
+  setTheta() {
+    this.cur_wave = 2;
+    this.wave_color = 2;
+
+    console.log('current wave: ' + this.cur_wave);
+  }
+
+  setDelta() {
+    this.cur_wave = 3;
+    this.wave_color = 3;
+
+    console.log('current wave: ' + this.cur_wave);
+  }
+
+  setGamma() {
+    this.cur_wave = 4;
+    this.wave_color = 4;
+
+    console.log('current wave: ' + this.cur_wave);
+  }
+
+  update_wave() {
+
+    if (this.started_flag === 0) {
+
+      console.log('first detected');
+
+      this.first_abp = this.abp;
+
+      d3.selectAll('.muse_circle')
+        .style('fill', this.abp_color[this.wave_color])
+        .attr('fill-opacity', this.opacity)
+        .merge(this.front_circles);
+
+      this.started_flag = 1;
+
+    } else {
+
+      // changed = ((this.abp[this.cur_wave] - this.first_abp[this.cur_wave]) / this.abp[this.cur_wave]) / 2;
+      if (this.abp[this.cur_wave] > this.first_abp[this.cur_wave]) {
+        this.opacity += 0.02;
+
+        if (this.opacity > 1) {
+          this.opacity = 1;
+        }
+
+      } else if (this.abp[this.cur_wave] < this.first_abp[this.cur_wave]) {
+        this.opacity -= 0.02;
+
+        if (this.opacity < 0) {
+          this.opacity = 0;
+        }
+      }
+
+      d3.selectAll('.muse_circle')
+        .style('fill', this.abp_color[this.wave_color])
+        .attr('fill-opacity', this.opacity)
+        .merge(this.front_circles);
+
+      this.first_abp = this.abp;
+
+      console.log(this.opacity);
+    }
+  }
+
   offLine() {
 
     this.http.get('./assets/stare_blink.csv', {responseType: 'text'})
@@ -177,66 +203,27 @@ export class GraphComponent implements OnInit {
 
           const abp_data = Array<Array<Number>>();
 
-          for (let i = 0; i < arr.length; i++) {
-            abp_data.push(arr[i].slice(0, 4).map(Number));
+          for (let i = 0; i < arr.length - 1; i++) {
 
-            if (i > 255) {
+            setTimeout(() => {
 
-              abp_data.shift();
-              console.log(bcijs.averageBandPowers(abp_data, 256, ['alpha', 'beta']));
-            }
+              abp_data.push(arr[i].slice(0, 4).map(Number));
+
+              if (i > 255) {
+
+                abp_data.shift();
+
+                this.abp = bcijs.averageBandPowers(abp_data, 256, ['alpha', 'beta', 'theta', 'delta', 'gamma']);
+                console.log(this.abp);
+
+                // this.update_brain();
+                this.update_wave();
+              }
+
+            });
           }
       }
     }));
-
-  }
-
-  endReceive() {
-    this.receive = false;
-
-    this.svg.selectAll('.anime').remove();
-
-  }
-
-  startReceive() {
-
-    this.receive = true;
-
-    this.animation = this.svg.append('g');
-
-    const colors = [0, 2, 4, 8];
-
-    const nodes = this.animation.selectAll('circles')
-      .data(node_data['front_nodes'])
-      .enter()
-      .append('circle')
-      .attr('class', 'anime')
-      .attr('r', 22)
-      .attr('fill', 'none')
-      .attr('stroke', 'none')
-      .attr('cx', (d) => d['x'])
-      .attr('cy', (d) => d['y'])
-      .transition()
-      // .attr('fill', 'none')
-      // .attr('stroke', 'none')
-      .delay((d) => d['delay'] * 1000)
-      .on('start', function repeat() {
-
-        d3.active(this)
-          .duration(1500)
-          .attr('r', 35)
-          .attr('fill', d3.schemePaired[colors[Math.floor(Math.random() * 4)]])
-          .transition()
-          .duration(1500)
-          .attr('r', 22)
-          .attr('fill', 'white')
-          .transition()
-          // .duration(2000)
-          .attr('r', 22)
-          .attr('fill', 'none')
-          .transition()
-          .on('start', repeat);
-      });
   }
 
   async connectMuse() {
@@ -250,39 +237,37 @@ export class GraphComponent implements OnInit {
 
   stream() {
 
-    // const test_array = new Array<Array<number>> (256);
-    //
-    // for (let i = 0; i < 256; i++) {
-    //
-    //   test_array[i] = Array.from({length: 5}, () => Math.floor(Math.random() * 100));
-    // }
-    //
-    // console.log(bcijs.averageBandPowers(test_array, 256, ['alpha', 'beta']));
-
     const data_array = new Array<Array<number>>();
     let nxt_idx = 0;
 
-    this.data.subscribe({
+    this.data.subscribe((sample) => {
 
-      next(sample) {
+      this.cur_data = sample.data.slice(0, 4).map(Number);
 
-        data_array.push(sample.data.slice(0, 4).map(Number));
-        nxt_idx += 1;
+      for (let i = 0; i < 4; i++) {
 
-        if (nxt_idx >= 255) {
-          this.analyzed_data = bcijs.averageBandPowers(data_array, 256, ['alpha', 'beta']);
-          console.log(this.analyzed_data);
-          data_array.shift();
+        if (isNaN(this.cur_data[i])) {
+          this.cur_data[i] = 0;
         }
-
-      },
-      complete () {
-        console.log('Finished receiving');
       }
+
+      data_array.push(this.cur_data);
+
+      nxt_idx += 1;
+
+      if (nxt_idx >= 255) {
+
+        this.abp = bcijs.averageBandPowers(data_array, 256, ['alpha', 'beta', 'theta', 'delta', 'gamma']);
+
+        console.log(this.abp);
+
+        this.update_wave();
+
+        data_array.shift();
+      }
+
     });
   }
-
-
 
 
 }
