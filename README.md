@@ -61,3 +61,8 @@ For a deeper understanding of Git:
 
 To understand what in the world virtual environments are:
 https://towardsdatascience.com/getting-started-with-python-environments-using-conda-32e9f2779307
+
+### Week 3: Intro to Neuroscience
+- neuroscience! https://prezi.com/p/wtpvjbrqsrz9/w5-n/
+
+### Week 4: Digital Signal Processing
