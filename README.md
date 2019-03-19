@@ -63,6 +63,7 @@ To understand what in the world virtual environments are:
 https://towardsdatascience.com/getting-started-with-python-environments-using-conda-32e9f2779307
 
 ### Week 3: Intro to Neuroscience
-- neuroscience! https://prezi.com/p/wtpvjbrqsrz9/w5-n/
+- neuroscience & history: https://prezi.com/view/RdfcOLXBP5OGB31zeFbt
+- neuroanatomy: https://prezi.com/view/x5Wa2d2EKLPrAFFkhRNt
 
 ### Week 4: Digital Signal Processing
