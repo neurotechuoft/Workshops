@@ -16,5 +16,9 @@ export let node_data = {
     {'id': 'AF8', 'x': c_x + af_x, 'y': c_y - af_y, 'delay': 2.5},
     {'id': 'TP9', 'x': c_x - (tp_x * 1.1), 'y': c_y + tp_y, 'delay': 4.5},
     {'id': 'TP10', 'x': c_x + (tp_x * 1.1), 'y': c_y + tp_y, 'delay': 6},
-  ]
+  ],
+  'AF7': [{'id': 'AF7', 'x': c_x - af_x, 'y': c_y - af_y, 'delay': 1}],
+  'AF8': [{'id': 'AF8', 'x': c_x + af_x, 'y': c_y - af_y, 'delay': 2.5}],
+  'TP9': [{'id': 'TP9', 'x': c_x - (tp_x * 1.1), 'y': c_y + tp_y, 'delay': 4.5}],
+  'TP10': [{'id': 'TP10', 'x': c_x + (tp_x * 1.1), 'y': c_y + tp_y, 'delay': 6}]
 };
