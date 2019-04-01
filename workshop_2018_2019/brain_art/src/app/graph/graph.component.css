@@ -12,14 +12,15 @@
   /*fill: #999;*/
 /*}*/
 
-body {
-  background-color: black;
-}
+/*body {*/
+  /*background-image: url('./images/circular_stars.jpg');*/
+  /*background-repeat: no-repeat;*/
+/*}*/
 
 svg {
   width: 650px;
   height: 600px;
-  background-image: url('./images/brain_dark.jpg');
+  background-image: url('./images/brain_dark.png');
   background-repeat: no-repeat;
 }
 
@@ -92,6 +93,5 @@ svg {
   height: 100%;
   width: 100%;
   vertical-align: middle;
-  background-color: black;
 }
 

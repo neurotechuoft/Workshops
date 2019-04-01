@@ -54,10 +54,10 @@ export class GraphComponent implements OnInit {
   cur_data = new Array<number>();
 
   // the four channels for the electrodes
-  ch_AF7 = new Array<number>();
-  ch_AF8 = new Array<number>();
-  ch_TP9 = new Array<number>();
-  ch_TP10 = new Array<number>();
+  ch_AF7 = [0];
+  ch_AF8 = [0];
+  ch_TP9 = [0];
+  ch_TP10 = [0];
 
   // an array of band powers computed for each channel
   sbp_channels = new Array<Array<number>>();
@@ -258,6 +258,8 @@ export class GraphComponent implements OnInit {
    */
   offLine() {
 
+    const avg = [0, 0, 0, 0];
+
     this.http.get('./assets/stare_blink.csv', {responseType: 'text'})
       .subscribe(data => this.papa.parse(data, {
         complete: (result) => {
@@ -286,12 +288,17 @@ export class GraphComponent implements OnInit {
                 this.ch_TP9.shift();
                 this.ch_TP10.shift();
 
+                avg[0] = this.ch_AF7.reduce((a, b) => a + b, 0) / 256;
+                avg[1] = this.ch_AF8.reduce((a, b) => a + b, 0) / 256;
+                avg[2] = this.ch_TP9.reduce((a, b) => a + b, 0) / 256;
+                avg[3] = this.ch_TP10.reduce((a, b) => a + b, 0) / 256;
+
                 for (let j = 0; j < 5; j++) {
 
-                  this.sbp_channels[0][j] = bcijs.signalBandPower(this.ch_AF7, 256, this.frequency_bands[j]);
-                  this.sbp_channels[1][j] = bcijs.signalBandPower(this.ch_AF8, 256, this.frequency_bands[j]);
-                  this.sbp_channels[2][j] = bcijs.signalBandPower(this.ch_TP9, 256, this.frequency_bands[j]);
-                  this.sbp_channels[3][j] = bcijs.signalBandPower(this.ch_TP10, 256, this.frequency_bands[j]);
+                  this.sbp_channels[0][j] = bcijs.signalBandPower(this.ch_AF7.map(x => x - avg[0]), 256, this.frequency_bands[j]);
+                  this.sbp_channels[1][j] = bcijs.signalBandPower(this.ch_AF8.map(x => x - avg[1]), 256, this.frequency_bands[j]);
+                  this.sbp_channels[2][j] = bcijs.signalBandPower(this.ch_TP9.map(x => x - avg[2]), 256, this.frequency_bands[j]);
+                  this.sbp_channels[3][j] = bcijs.signalBandPower(this.ch_TP10.map(x => x - avg[3]), 256, this.frequency_bands[j]);
                 }
 
                 console.log(this.sbp_channels[0]);
@@ -420,6 +427,7 @@ export class GraphComponent implements OnInit {
   stream() {
 
     let nxt_idx = 0;
+    const avg = [0, 0, 0, 0];
 
     this.data.subscribe((sample) => {
 
@@ -453,12 +461,17 @@ export class GraphComponent implements OnInit {
           this.ch_TP9.shift();
           this.ch_TP10.shift();
 
+          avg[0] = this.ch_AF7.reduce((a, b) => a + b, 0) / 256;
+          avg[1] = this.ch_AF8.reduce((a, b) => a + b, 0) / 256;
+          avg[2] = this.ch_TP9.reduce((a, b) => a + b, 0) / 256;
+          avg[3] = this.ch_TP10.reduce((a, b) => a + b, 0) / 256;
+
           for (let j = 0; j < 5; j++) {
 
-            this.sbp_channels[0][j] = bcijs.signalBandPower(this.ch_AF7, 256, this.frequency_bands[j]);
-            this.sbp_channels[1][j] = bcijs.signalBandPower(this.ch_AF8, 256, this.frequency_bands[j]);
-            this.sbp_channels[2][j] = bcijs.signalBandPower(this.ch_TP9, 256, this.frequency_bands[j]);
-            this.sbp_channels[3][j] = bcijs.signalBandPower(this.ch_TP10, 256, this.frequency_bands[j]);
+            this.sbp_channels[0][j] = bcijs.signalBandPower(this.ch_AF7.map(x => x - avg[0]), 256, this.frequency_bands[j]);
+            this.sbp_channels[1][j] = bcijs.signalBandPower(this.ch_AF8.map(x => x - avg[1]), 256, this.frequency_bands[j]);
+            this.sbp_channels[2][j] = bcijs.signalBandPower(this.ch_TP9.map(x => x - avg[2]), 256, this.frequency_bands[j]);
+            this.sbp_channels[3][j] = bcijs.signalBandPower(this.ch_TP10.map(x => x - avg[3]), 256, this.frequency_bands[j]);
           }
 
           console.log(this.sbp_channels[0]);
