@@ -45,7 +45,7 @@ A bit about how Brain Art was made, connecting live to Muse with MuseJs, work se
 ## Weekly Details
 
 ### Week 1: Intro to Python
-- learn Python! http://bit.ly/ntuoft-workshop-1
+- learn Python! http://bit.ly/ntuoft-workshop-2
 
 ### Week 2: Intro to Git, Loading and Graphing Data
 - learn how to use Git: http://bit.ly/ntuoft-git-started
