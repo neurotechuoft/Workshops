@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "neutron-model": {
+    "brain-art": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/neutron-model",
+            "outputPath": "dist/brain-art",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -50,18 +50,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "neutron-model:build"
+            "browserTarget": "brain-art:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "neutron-model:build:production"
+              "browserTarget": "brain-art:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "neutron-model:build"
+            "browserTarget": "brain-art:build"
           }
         },
         "test": {
@@ -95,7 +95,7 @@
         }
       }
     },
-    "neutron-model-e2e": {
+    "brain-art-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "targets": {
@@ -103,11 +103,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "neutron-model:serve"
+            "devServerTarget": "brain-art:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "neutron-model:serve:production"
+              "devServerTarget": "brain-art:serve:production"
             }
           }
         },
@@ -123,5 +123,5 @@
       }
     }
   },
-  "defaultProject": "neutron-model"
+  "defaultProject": "brain-art"
 }

@@ -10,15 +10,14 @@ import { node_data } from './data';
 import * as bcijs from 'bcijs/browser.js';
 import { EEGSample, MuseClient, zipSamples } from 'muse-js';
 
-
 @Component({
-  selector: 'app-graph',
-  templateUrl: './graph.component.html',
-  styleUrls: ['./graph.component.css'],
+  selector: 'app-nightsky',
+  templateUrl: './nightsky.component.html',
+  styleUrls: ['./nightsky.component.css'],
   encapsulation: ViewEncapsulation.None
 })
 
-export class GraphComponent implements OnInit {
+export class NightskyComponent implements OnInit {
 
   // declare muse connection variables
   private muse = new MuseClient();
@@ -80,7 +79,6 @@ export class GraphComponent implements OnInit {
   started_flag = 0;
   bad_data = 0;
 
-
   constructor(private papa: Papa, private http: HttpClient) {
   }
 
@@ -96,10 +94,12 @@ export class GraphComponent implements OnInit {
     this.height = +this.svg.attr('height');
     this.margin = {top: 20, right: 20, bottom: 20, left: 20};
 
+
+
     // initializing the variables to be used for EEG
     this.sbp_color = ['#4193c6', '#cc4fb1', '#46bc3e', '#833fc1', '#e28009'];
     this.node_class = ['muse_AF7', 'muse_AF8', 'muse_TP9', 'muse_TP10'];
-    this.sbp_channels = [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]];
+    this.sbp_channels = [[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0]];
     this.frequency_bands = ['alpha', 'beta', 'theta', 'delta', 'gamma'];
     this.opacities = [0.5, 0.5, 0.5, 0.5];
     this.highest_colors = [0, 0, 0, 0];
@@ -410,7 +410,6 @@ export class GraphComponent implements OnInit {
 
   /**
    * connectes to the Muse API through bluetooth
-   * @returns {Promise<void>}
    */
   async connectMuse() {
     await this.muse.connect();
@@ -490,6 +489,5 @@ export class GraphComponent implements OnInit {
 
     });
   }
-
 
 }
