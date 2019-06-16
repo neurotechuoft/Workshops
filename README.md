@@ -1,4 +1,4 @@
-# Intro to Neurotech: 2018-2019
+# Intro to Neurotech: 2019 Summer
 Make artwork representing your brain with the Muse EEG headband, and learn about neurotech in the process!
 
 ## Format
@@ -13,57 +13,134 @@ This is going to be a cross of our workshops from 2017-2018 and our initial Prez
 ## Syllabus:
 *(For details, scroll down to "Weekly Details")*
 
-### Week 1: (Jan 21 2019) Intro to Python
+### Week 1: (June 16) Intro to Python
 Absolute basics of programming
 
-### Week 2 (Feb 4 2019): Intro to Git + Conda, Loading and Graphing Data, Noise Filtering
-Git + GitHub, Conda, how to load data from CSVs (or FIFs), graphing data with MatPlotLib, filtering noise, and an introduction to the Fast Fourier Transform
-
-### Week 3 (Feb 11 2019): Intro to Neuroscience
+### Week 2 (June 23): Intro to Neuroscience
 History, how neurons work (brief intro), neuroanatomy review, Rall's cable theory, membrane potential (Nernst, GHK, HH equations)
 
-### (Feb 18 2019): READING Week
+### Week 3 (June 30): Intro to Git + Conda, Loading and Graphing Data, Noise Filtering
+Git + GitHub, Conda, how to load data from CSVs (or FIFs), graphing data with MatPlotLib, filtering noise, and an introduction to the Fast Fourier Transform
 
-### Week 4: (Feb 25 2019) Digital Signal Processing
+### Week 4: (July 7) Intro to Angular, MuseJs
+Front-end programming with Angular, signal acquisition from the Muse using MuseJs, BrainArt architecture
+
+### Week 5: (July 14): Convolution, Fourier Transform, BrainArt Filtering Milestone
+Implement convolution, Discrete Fourier Transform; complete BrainArt Milestone 2
+
+### Week 6: (July 21) Digital Signal Processing I
 Convolution, impulse responses, signal types, continuous vs discrete, aliasing, Nyquist's Theorem, FIR vs IIR, different types of filters, filter
 order
 
-### Week 5: Uncovering Oscillatory Processes in EEG
+### Week 7: (July 28) Digital Signal Processing II
+Scenario-based practice of DSP I concepts
+
+### Week 8: (August 4) Uncovering Oscillatory Processes in EEG
 What exactly is EEG, physics of EEG, oscillatory processes vs ERPs, power spectral analysis for EEG power bands
 
-### Week 6: Brain Art Project! + advanced Git + offline data working session
-Intro to brain art project; how to get started; group Git; start working
+### Week 9: (August 11) Advanced Git, BrainArt working session
+How to use GitHub to code as a team, dev session for BrainArt (offline data)
 
-### Week 7: Neuromodulation
-Literature review: therapeutic modulation of brain signals
+### Week 10: (August 18) BrainArt working session
+Dev session for BrainArt (online with Muse)
 
-### Week 8: Intro to MuseJs + Brain Art
-A bit about how Brain Art was made, connecting live to Muse with MuseJs, work session
-
-### Week 9: Present brain art!
+### Week 11: (August 25) Present brain art!
+Present brain art piece to NeurotechUofT faculty advisors, prizes, and fun!!
 
 ## Weekly Details
 
-### Week 1: Intro to Python
+### Week 1: (June 16) Intro to Python
+Absolute basics of programming
+
+Materials:
 - learn Python! http://bit.ly/ntuoft-workshop-2
 
-### Week 2: Intro to Git, Loading and Graphing Data
+### Week 2 (June 23): Intro to Neuroscience
+History, how neurons work (brief intro), neuroanatomy review, Rall's cable theory, membrane potential (Nernst, GHK, HH equations)
+
+Preparation:
+- [Wait But Why: Neuralink - The Human Colossus](https://waitbutwhy.com/2017/04/neuralink.html#part1)
+- [Wait But Why: Neuralink - The Brain](https://waitbutwhy.com/2017/04/neuralink.html#part2)
+- Practice Python (30 mins per day): https://codecombat.com/
+
+Materials:
+- A scientific history of neuroscience discoveries: https://prezi.com/view/RdfcOLXBP5OGB31zeFbt
+- Neuroanatomy: https://prezi.com/view/x5Wa2d2EKLPrAFFkhRNt
+
+### Week 3 (June 30): Intro to Git + Conda, Loading and Graphing Data, Noise Filtering
+Git + GitHub, Conda, how to load data from CSVs (or FIFs), graphing data with MatPlotLib, filtering noise, and an introduction to the Fast Fourier Transform
+
+Preparation:
+- For a deeper understanding of Git:
+    - A teeny more in-depth: https://www.emaze.com/@AOOQLWZRZ/git-tutorial
+    - Hands on and reaally in-depth: https://learngitbranching.js.org/
+
+- Virtual environments in Python:
+https://towardsdatascience.com/getting-started-with-python-environments-using-conda-32e9f2779307
+
+Materials:
 - learn how to use Git: http://bit.ly/ntuoft-git-started
 - get started with Conda: `./workshop_2018_2019/Conda_setup.md`
 - start graphing our first signals! (just the Week 2 notebooks) `./workshop_2018_2019/notebooks/exercises/`
 
-Readings:
-- [Analyzing Neural Time Series Data: Chapter 10](./workshop_2018_2019/readings/wk2-cohen2014-chap10.pdf)
+### Week 4: (July 7) Intro to Angular, MuseJs
+Front-end programming with Angular, signal acquisition from the Muse using MuseJs, BrainArt architecture
 
-For a deeper understanding of Git:
-- A teeny more in-depth: https://www.emaze.com/@AOOQLWZRZ/git-tutorial
-- Hands on and reaally in-depth: https://learngitbranching.js.org/
+Materials:
+- [Tour of Heroes: Angular Tutorial](https://angular.io/tutorial)
+TBD
 
-To understand what in the world virtual environments are:
-https://towardsdatascience.com/getting-started-with-python-environments-using-conda-32e9f2779307
+Preparation: TBD
 
-### Week 3: Intro to Neuroscience
-- neuroscience & history: https://prezi.com/view/RdfcOLXBP5OGB31zeFbt
-- neuroanatomy: https://prezi.com/view/x5Wa2d2EKLPrAFFkhRNt
+### Week 5: (July 14): Convolution, Fourier Transform, Noise Filtering in BrainArt
+Implement convolution, Fourier Transform; Filtering noise in EEG (Python, Ts)
 
-### Week 4: Digital Signal Processing
+Materials: TBD
+
+Preparation:
+- [ANTSD Chapter 10: The Dot Product and Convolution](./workshop_2018_2019/readings/wk2-cohen2014-chap10.pdf)
+- [ANTSD Chapter 11: The Discrete Time Fourier Transform, the FFT, and the Convolution Theorem](./workshop_2018_2019/readings/wk2-cohen2014-chap11.pdf)
+
+### Week 6: (July 21) Digital Signal Processing I
+Convolution, impulse responses, signal types, continuous vs discrete, aliasing, Nyquist's Theorem, FIR vs IIR, different types of filters, filter
+order
+
+Materials: TBD
+
+Prepraration:
+- [Introduction to Filters: FIR versus IIR](https://community.plm.automation.siemens.com/t5/Testing-Knowledge-Base/Introduction-to-Filters-FIR-versus-IIR/ta-p/520959)
+
+### Week 7: (July 28) Digital Signal Processing II
+Scenario-based practice of DSP I concepts
+
+Preparation:
+- Review Week 6 material
+
+Materials: TBD
+
+### Week 8: (August 4) Uncovering Oscillatory Processes in EEG
+What exactly is EEG, physics of EEG, oscillatory processes vs ERPs, power spectral analysis for EEG power bands
+
+Preparation:
+- Review Week 2, Week 6
+- [Wait But Why: Neuralink - Brain-Machine Interfaces](https://waitbutwhy.com/2017/04/neuralink.html#part3)
+
+
+Materials: TBD
+
+### Week 9: (August 11) Advanced Git, BrainArt working session
+How to use GitHub to code as a team, dev session for BrainArt (offline data)
+
+Preparation: TBD
+
+Materials: TBD
+
+### Week 10: (August 18) BrainArt working session
+Dev session for BrainArt (online with Muse)
+
+Preparation: TBD
+
+Materials: TBD
+
+### Week 11: (August 25) Present brain art!
+Present brain art piece to NeurotechUofT faculty advisors, prizes, and fun!!
