@@ -72,11 +72,10 @@ export class NightskyComponent implements OnInit {
   frequency_bands = new Array<string>();
 
   /** variables for when the user wants to see which frenquency band power is the current highest */
-  highest_ind = 0;
+  // highest_ind = 0;
   highest_colors = new Array<number>();
   prev_colors = new Array<number>();
 
-  started_flag = 0;
   bad_data = 0;
 
   constructor(private papa: Papa, private http: HttpClient) {
@@ -193,65 +192,65 @@ export class NightskyComponent implements OnInit {
    * TODO: set the cur_frequency and cur_freq_color to the correct index value
    *       set the highest_ind to 0 since a specific frequency is selected
    */
-  setAlpha() {
-    this.cur_frequency = 0;
-    this.cur_freq_color = 0;
-    this.highest_ind = 0;
-
-    console.log('current wave: ' + this.cur_frequency);
-  }
+  // setAlpha() {
+  //   this.cur_frequency = 0;
+  //   this.cur_freq_color = 0;
+  //   this.highest_ind = 0;
+  //
+  //   console.log('current wave: ' + this.cur_frequency);
+  // }
 
   /**
    * when user clicks on the button Alpha, sets the current frequency selected as 'beta'
    */
-  setBeta() {
-    this.cur_frequency = 1;
-    this.cur_freq_color = 1;
-    this.highest_ind = 0;
-
-    console.log('current wave: ' + this.cur_frequency);
-  }
+  // setBeta() {
+  //   this.cur_frequency = 1;
+  //   this.cur_freq_color = 1;
+  //   this.highest_ind = 0;
+  //
+  //   console.log('current wave: ' + this.cur_frequency);
+  // }
 
   /**
    * when user clicks on the button Beta, sets the current frequency selected as 'theta'
    */
-  setTheta() {
-    this.cur_frequency = 2;
-    this.cur_freq_color = 2;
-    this.highest_ind = 0;
-
-    console.log('current wave: ' + this.cur_frequency);
-  }
+  // setTheta() {
+  //   this.cur_frequency = 2;
+  //   this.cur_freq_color = 2;
+  //   this.highest_ind = 0;
+  //
+  //   console.log('current wave: ' + this.cur_frequency);
+  // }
 
   /**
    * when user clicks on the button Theta, sets the current frequency selected as 'delta'
    */
-  setDelta() {
-    this.cur_frequency = 3;
-    this.cur_freq_color = 3;
-    this.highest_ind = 0;
-
-    console.log('current wave: ' + this.cur_frequency);
-  }
+  // setDelta() {
+  //   this.cur_frequency = 3;
+  //   this.cur_freq_color = 3;
+  //   this.highest_ind = 0;
+  //
+  //   console.log('current wave: ' + this.cur_frequency);
+  // }
 
   /**
    * when user clicks on the button Delta, sets the current frequency selected as 'gamma'
    */
-  setGamma() {
-    this.cur_frequency = 4;
-    this.cur_freq_color = 4;
-    this.highest_ind = 0;
-
-    console.log('current wave: ' + this.cur_frequency);
-  }
+  // setGamma() {
+  //   this.cur_frequency = 4;
+  //   this.cur_freq_color = 4;
+  //   this.highest_ind = 0;
+  //
+  //   console.log('current wave: ' + this.cur_frequency);
+  // }
 
   /**
    * when user clicks on the button Highest, sets the highest_ind to 1 to indicate that we want to display the
    * frequency with the highest value
    */
-  setHighest() {
-    this.highest_ind = 1;
-  }
+  // setHighest() {
+  //   this.highest_ind = 1;
+  // }
 
   /**
    * reads input signals from a csv file and calculates the signal band powers for each channel
@@ -303,14 +302,16 @@ export class NightskyComponent implements OnInit {
 
                 console.log(this.sbp_channels[0]);
 
-                if (this.highest_ind === 0) {
+                // if (this.highest_ind === 0) {
+                //
+                //   this.update_selected();
+                //
+                // } else {
+                //
+                //   this.update_highest();
+                // }
 
-                  this.update_selected();
-
-                } else {
-
-                  this.update_highest();
-                }
+                this.update_highest();
 
               }
 
@@ -323,13 +324,13 @@ export class NightskyComponent implements OnInit {
   /**
    * helper function to update the svg to reflect the change when user selects a particular frequency
    */
-  update_svg_selected(idx: number) {
-
-    d3.selectAll('.' + this.node_class[idx])
-      .style('fill', this.sbp_color[this.cur_freq_color])
-      .attr('fill-opacity', this.opacities[idx])
-      .merge(this.nodes[idx]);
-  }
+  // update_svg_selected(idx: number) {
+  //
+  //   d3.selectAll('.' + this.node_class[idx])
+  //     .style('fill', this.sbp_color[this.cur_freq_color])
+  //     .attr('fill-opacity', this.opacities[idx])
+  //     .merge(this.nodes[idx]);
+  // }
 
   /**
    * helper function to update the svg to reflect the change when user wants to display the frequency with highest abp
@@ -372,41 +373,41 @@ export class NightskyComponent implements OnInit {
    *           then decrease opacity to reflect changes in abp
    *       update the svg to reflect the changes
    */
-  update_selected() {
-
-    if (this.started_flag === 0) {
-
-      console.log('first detected');
-
-      this.prev_sbps = JSON.parse(JSON.stringify(this.sbp_channels));
-      this.started_flag = 1;
-
-    } else {
-
-      console.log('cur_abp: ' + this.sbp_channels[0]);
-
-      for (let i = 0; i < 4; i++) {
-        if (this.sbp_channels[i][this.cur_frequency] > this.prev_sbps[i][this.cur_frequency]) {
-          this.opacities[i] += 0.02;
-
-          if (this.opacities[i] > 1) {
-            this.opacities[i] = 1;
-          }
-
-        } else if (this.sbp_channels[i][this.cur_frequency] < this.prev_sbps[i][this.cur_frequency]) {
-          this.opacities[i] -= 0.02;
-
-          if (this.opacities[i] < 0) {
-            this.opacities[i] = 0;
-          }
-        }
-
-        this.update_svg_selected(i);
-
-      }
-      this.prev_sbps = JSON.parse(JSON.stringify(this.sbp_channels));
-    }
-  }
+  // update_selected() {
+  //
+  //   if (this.started_flag === 0) {
+  //
+  //     console.log('first detected');
+  //
+  //     this.prev_sbps = JSON.parse(JSON.stringify(this.sbp_channels));
+  //     this.started_flag = 1;
+  //
+  //   } else {
+  //
+  //     console.log('cur_abp: ' + this.sbp_channels[0]);
+  //
+  //     for (let i = 0; i < 4; i++) {
+  //       if (this.sbp_channels[i][this.cur_frequency] > this.prev_sbps[i][this.cur_frequency]) {
+  //         this.opacities[i] += 0.02;
+  //
+  //         if (this.opacities[i] > 1) {
+  //           this.opacities[i] = 1;
+  //         }
+  //
+  //       } else if (this.sbp_channels[i][this.cur_frequency] < this.prev_sbps[i][this.cur_frequency]) {
+  //         this.opacities[i] -= 0.02;
+  //
+  //         if (this.opacities[i] < 0) {
+  //           this.opacities[i] = 0;
+  //         }
+  //       }
+  //
+  //       this.update_svg_selected(i);
+  //
+  //     }
+  //     this.prev_sbps = JSON.parse(JSON.stringify(this.sbp_channels));
+  //   }
+  // }
 
   /**
    * connectes to the Muse API through bluetooth
@@ -475,14 +476,16 @@ export class NightskyComponent implements OnInit {
 
           console.log(this.sbp_channels[0]);
 
-          if (this.highest_ind === 0) {
+          // if (this.highest_ind === 0) {
+          //
+          //   this.update_selected();
+          //
+          // } else {
+          //
+          //   this.update_highest();
+          // }
 
-            this.update_selected();
-
-          } else {
-
-            this.update_highest();
-          }
+          this.update_highest();
 
         }
       }
