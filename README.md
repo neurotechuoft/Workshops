@@ -88,7 +88,10 @@ Front-end programming with Angular, signal acquisition from the Muse using MuseJ
 
 Milestone: Make an app printing out raw data from the Muse in real-time
 
-Preparation: TBD
+Preparation:
+- Intro to HTML, CSS: TBD
+- Intro to TypeScript: TBD
+- Intro to Angular: TBD
 
 Materials:
 - [Tour of Heroes: Angular Tutorial](https://angular.io/tutorial)
