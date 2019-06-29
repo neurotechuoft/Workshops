@@ -71,7 +71,7 @@ Materials:
 How to load data from CSVs (or FIFs), graphing data with MatPlotLib, filtering noise in Python, and an introduction to the Fast Fourier Transform
 
 Preparation:
-- Learn how to use Git: http://bit.ly/ntuoft-git-started
+- Learn how to use Git: `./worshop_2018_2019/git_workshop.md`
     - For a deeper understanding of Git:
     - A teeny more in-depth: https://www.emaze.com/@AOOQLWZRZ/git-tutorial
     
