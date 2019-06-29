@@ -23,7 +23,7 @@ Most basic commands that you should get familiar with are:
 
 When you start working on Neurotech repository (which can be found here: https://github.com/neurotechuoft/Workshops/tree/master), you are not required to do "git init" as you are working in the existing repository. In your terminal, cd into the directory you want to have a copy of this project then use "git clone ..." command to get started. 
 
-#After Git installation: Quick start-
+## After Git installation: Quick start-
 - Go to the neurotechuoft/Workshops repository https://github.com/neurotechuoft/Workshops/tree/master. 
 - Click the green button “Clone or download” and copy the git link to your clipboard
 - Open a terminal window [for windows users open command prompt (type it in start menu search)]
