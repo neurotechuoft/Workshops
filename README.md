@@ -71,7 +71,7 @@ Materials:
 How to load data from CSVs (or FIFs), graphing data with MatPlotLib, filtering noise in Python, and an introduction to the Fast Fourier Transform
 
 Preparation:
-- Learn how to use Git: http://bit.ly/ntuoft-git-started
+- Learn how to use Git: `./worshop_2018_2019/git_workshop.md`
     - For a deeper understanding of Git:
     - A teeny more in-depth: https://www.emaze.com/@AOOQLWZRZ/git-tutorial
     
@@ -88,7 +88,8 @@ Front-end programming with Angular, signal acquisition from the Muse using MuseJ
 
 Milestone: Make an app printing out raw data from the Muse in real-time
 
-Preparation: TBD
+Preparation: 
+- Get started with Angular: `./workshop_2018_2019/angular_workshop.md`
 
 Materials:
 - [Tour of Heroes: Angular Tutorial](https://angular.io/tutorial)
