@@ -44,6 +44,17 @@ TypeScript is a superset of JavaScript so if you know JavaScript (JS), you will 
 
 Use this site as the reference for TypeScript: https://www.tutorialspoint.com/typescript/
 
+### JSON
+JavaScript Object Notation(JSON) respresents structured data by using key-value pairs, where the keys are strings and values are valid JSON data types. JSON data types include string, number, boolean, object, array, and null. JSON objects could be easily transmitted across networks and are straight forward to work with. 
+
+Example: { "class": "Angular Tutorial", "sessions": 1, "topics": ["Javascript", "JSON", "HTML", "CSS"] }
+
+Here is a good resource to get some intro to JSON objects and learn how to work with them:
+- https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON
+
+Two of the most common methods used with JSON objects are JSON.parse() and JSON.stringify(), which convert string->JavaScript object and JavaScript object->string correspondingly. 
+- https://alligator.io/js/json-parse-stringify/
+
 ## Debugging using console
 Use console.log(<variableHere>); if you want to print out certain variable's value in your console. It is particularly useful when you are learning Angular for the first time or trying to debug your code.
 
