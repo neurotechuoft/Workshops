@@ -2,22 +2,22 @@
 Angular is front-end frame webframework mostly used to build single page applications. For this workshop, we will be using Angular to show your brain-art in the browser.
 
 ## Install Node.js, npm, Angular
-You must have Node.js and npm package manager installed in your machine before getting started with angular. After you have those two, install angular.
+You must have Node.js and npm package manager installed in your machine before getting started with angular. After you have those two, install angular. Node.js and npm can be installed from here: https://nodejs.org/en/download/. To install angular: run this command in your terminal (no quotes): "npm install -g angular-cli"
 
 Follow the instructions here to set up your environment: https://angular.io/guide/setup-local
 
-Step 2 and Step 3 in above tutorial is about creating your first angular project. Complete them and move on to basic Angular tutorial.
+To make your workshop experience as useful as possible, make sure you have angular setup and ready to go at the start of the workshop (this means installing everything you need beforehand!), because you will be diving straight into writing your first angular application!
 
 ## Basic Angular tutorial
-To be able to use Angular, it is essential that you have the very basic idea of HTML, CSS, JavaScript/TypeScript. If you are not familiar with it already, go to next step then come back to this one.
+To be able to use Angular, it is essential that you have the very basic idea of HTML, CSS, JavaScript/TypeScript. If you are not familiar with these already, we highly recommend that you go through the resources below for HTML, CSS, JavaScript before doing the angular tutorial.
 
-Once you have everything installed and project initiated, go here to get started with Angular https://angular.io/start. Follow this tutorial to create your first angular app and to get used to the basics of Angular. You are only required to go through "Your First App" section for the purpose of this workshop but if you really enjoy it, feel free to checkout other sections as well.
+Once you have everything installed and project initiated, go here to get started with Angular https://angular.io/start. Follow this tutorial to create your first angular app and to get used to the basics of Angular. You are only required to go through "Your First App" section for the purpose of this workshop.
 
-If you would rather watch and follow a video tutorial, follow this: https://youtu.be/5wtnKulcquA
+Additionally, you can watch this helpful video tutorial to get a better grasp of Angular: https://youtu.be/5wtnKulcquA
 
 **Optional** For those who really enjoyed Angular and are curious to learn more: https://angular.io/tutorial
 
-## HTML, CSS, JavaScript, TypeScript tutorial
+## HTML, CSS, JavaScript, TypeScript resources
 You can always google just the part you need for each component but it is necessary to have the basic idea so that you know what to google. Use the following resources to familarize yourself with each language if you are not already aware of them.
 
 ### HTML
