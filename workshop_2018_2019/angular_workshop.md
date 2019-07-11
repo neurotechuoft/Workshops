@@ -2,25 +2,26 @@
 Angular is front-end frame webframework mostly used to build single page applications. For this workshop, we will be using Angular to show your brain-art in the browser.
 
 ## Install Node.js, npm, Angular
-You must have Node.js and npm package manager installed in your machine before getting started with angular. After you have those two, install angular. Node.js and npm can be installed from here: https://nodejs.org/en/download/. To install angular: run this command in your terminal (no quotes): "npm install -g angular-cli"
+To get started:
+- Install Node.js and npm from: https://nodejs.org/en/download/
+- Install Angular by running this command on your terminal: 
+```
+npm install -g angular-cli
+```
 
-Follow the instructions here to set up your environment: https://angular.io/guide/setup-local
+Just in case you get stuck, here is a detailed guide on setting up your environment: https://angular.io/guide/setup-local
 
-To make your workshop experience as useful as possible, make sure you have angular setup and ready to go at the start of the workshop (this means installing everything you need beforehand!), because you will be diving straight into writing your first angular application!
+To make your workshop experience as useful as possible, make sure you have angular setup and ready to go at the start of the workshop (this means installing everything you need beforehand!), because you will be diving straight into writing your first angular application during the workshop!
 
-## Basic Angular tutorial
-To be able to use Angular, it is essential that you have the very basic idea of HTML, CSS, JavaScript/TypeScript. If you are not familiar with these already, we highly recommend that you go through the resources below for HTML, CSS, JavaScript before doing the angular tutorial.
 
-Once you have everything installed and project initiated, go here to get started with Angular https://angular.io/start. Follow this tutorial to create your first angular app and to get used to the basics of Angular. You are only required to go through "Your First App" section for the purpose of this workshop.
-
-Additionally, you can watch this helpful video tutorial to get a better grasp of Angular: https://youtu.be/5wtnKulcquA
-
-**Optional** For those who really enjoyed Angular and are curious to learn more: https://angular.io/tutorial
-
-## HTML, CSS, JavaScript, TypeScript resources
-You can always google just the part you need for each component but it is necessary to have the basic idea so that you know what to google. Use the following resources to familarize yourself with each language if you are not already aware of them.
+## Mastering HTML, CSS, JavaScript, TypeScript
+Angular uses HTML, CSS and JavaScript/TypeScript so, before getting started with Angular, let's get familiar with these three important languages! Since there is a lot to learn in each of these languages, we don't expect you to go through everything but here are few resources to help you get started! (fact: even the well experienced programmers look up the syntaxes as they need it! The trick is to understand the high level idea of what each language is used for then Google syntaxes/functions as you need them.)
 
 ### HTML
+- Follow this to get started (you can create free account):
+    - https://www.sololearn.com/Course/HTML/
+    
+#### Additional resources
 - Best resource for learning as well as future reference to look up any syntax:
     - https://www.w3schools.com/html/
 - This is also a good resource for the beginners to get started:
@@ -44,6 +45,14 @@ TypeScript is a superset of JavaScript so if you know JavaScript (JS), you will 
 
 Use this site as the reference for TypeScript: https://www.tutorialspoint.com/typescript/
 
+## Basic Angular tutorial
+- Create your first Angular app by starting here: https://angular.io/start
+    - Going through "Your First App" section should give you enough background required for this workshop. Pay close attention to the new syntaxes as they come up! They will help you when you create your own app during the workshop.
+
+Additionally, you can watch this helpful video tutorial to get a better grasp of Angular: https://youtu.be/5wtnKulcquA
+
+**Optional** For those who really enjoyed Angular and are curious to learn more: https://angular.io/tutorial
+
 ### JSON
 JavaScript Object Notation(JSON) respresents structured data by using key-value pairs, where the keys are strings and values are valid JSON data types. JSON data types include string, number, boolean, object, array, and null. JSON objects could be easily transmitted across networks and are straight forward to work with. 
 
@@ -58,7 +67,7 @@ Two of the most common methods used with JSON objects are JSON.parse() and JSON.
 ## Debugging using console
 Use console.log(<variableHere>); if you want to print out certain variable's value in your console. It is particularly useful when you are learning Angular for the first time or trying to debug your code.
 
-Alternatively, Y\you can always use the debugger that comes with your IDE.
+Alternatively, you can always use the debugger that comes with your IDE.
 
 ## Importing libraries 
 Sometimes you might want to use some published libraries to import certain functions so that you don't have to write them yourselves. Here is a quick guide on how to do that: https://angular.io/guide/using-libraries
