@@ -23,13 +23,13 @@ Now close the browser and terminate the session by typing 'ctrl c' in the termin
 
 ## Part II: Build your own Angular application
 
-#### II a) Generate a new app and the components
+### II a) Generate a new app and the components
 
 _Step 1:_ Navigate to the folder where you want your application to be in, generate a new Angular app and name it muse-app.
 
 _Step 2:_ Navigate to the muse-app folder in the terminal and generate a new component called 'muse'
 
-#### II b) Change the title and background
+### II b) Change the title and background
 
 _Step 3:_ Go to the __workshop_2018_2019__ folder, copy the 'sky.jpg' and put it in the src/assets/ folder of the app you just generated.
 
@@ -71,7 +71,7 @@ This basically includes title of the application and the 'muse' component into t
 
 Now run the application. You should see a sky background with the title 'Muse Intro', and the words 'muse works!'
 
-#### II c) Install libraries using npm
+### II c) Install libraries using npm
 
 _Step 7:_ Make sure you are under the muse-app directory run the following commands in the terminal to install the libraries 'muse-js' and 'rxjs' using npm:
 
@@ -80,7 +80,7 @@ _Step 7:_ Make sure you are under the muse-app directory run the following comma
 >>> npm i rxjs
 ```
 
-#### II d) Stream Muse data!
+### II d) Stream Muse data!
 
 _Step 7:_: Now that you got everything set up, we could start working on how to stream live data from the Muse. Copy the below template code into the __muse.component.ts__ (clear the existing code in the file first):
 
@@ -171,7 +171,7 @@ export class MuseComponent implements OnInit {
 
 Fill in the missing code snippits in the __stream()__ function.
 
-#### II e) Make a dynamic list using ngFor
+### II e) Make a dynamic list using ngFor
 
 _Step 8:_ Test how to use ngFor by trying to display a dummy static array variable first. In __muse.component.html__, add a list item to display the 'test_data' array declared in the __muse.component.js__ using ngFor.
 
@@ -183,7 +183,7 @@ Hint: Remember that each item in the list 'channels' is a json object of the for
 
 If this step is done properly, the page should display live data from the Muse.
 
-#### II f) Appearance enhancement with CSS
+### II f) Appearance enhancement with CSS
 
 _Step: 10_ After making sure the streaming function works and the list is being updated dynamically, we could start making the application more presentatble by adding some CSS features.
 
