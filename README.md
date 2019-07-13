@@ -12,8 +12,11 @@ This is going to be a cross of our workshops from 2017-2018 and our initial Prez
 
 ## Milestones
 Milestone 1: Make an app printing out raw data from the Muse in real-time
+
 Milestone 2: Filter data from the Muse in your app in real-time
+
 Milestone 3: Design, implement, and verify EEG interpretation algorithm on pre-collected data in Python
+
 Milestone 4: Implement and verify real-time EEG interpretation algorithm in Angular
 
 ## Syllabus:
