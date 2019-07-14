@@ -10,6 +10,18 @@ This is going to be a cross of our workshops from 2017-2018 and our initial Prez
 
 **NOTE 2**: We're trying to cram a lot of crazy things in the span of a semester! This means we really have to rely on readings to prep you for each week's workshop. **Please make sure to do the mandatory readings** and any **mandatory prep noted** before you come to the workshop, as it will make understanding the material infinitely easier :)
 
+### (To sync this version of workshops with your version, follow the instructions in this link!)
+https://www.sitepoint.com/quick-tip-sync-your-fork-with-the-original-without-the-cli/
+
+## Milestones
+Milestone 1: Make an app printing out raw data from the Muse in real-time
+
+Milestone 2: Filter data from the Muse in your app in real-time
+
+Milestone 3: Design, implement, and verify EEG interpretation algorithm on pre-collected data in Python
+
+Milestone 4: Implement and verify real-time EEG interpretation algorithm in Angular
+
 ## Syllabus:
 *(For details, scroll down to "Weekly Details")*
 
@@ -22,27 +34,27 @@ History, how neurons work (brief intro), neuroanatomy review, Rall's cable theor
 ### Week 3 (June 30): Loading and Graphing Data, Noise Filtering
 How to load data from CSVs (or FIFs), graphing data with MatPlotLib, filtering noise, and an introduction to the Fast Fourier Transform
 
-### Week 4: (July 7) Intro to Angular, MuseJs
-Front-end programming with Angular, signal acquisition from the Muse using MuseJs, BrainArt architecture
+### Week 4: (July 7) Intro to Angular, MuseJs, Milestone 1
+Front-end programming with Angular, signal acquisition from the Muse using MuseJs, BrainArt architecture, complete BrainArt Milestone 1
 
-### Week 5: (July 14): Convolution, Fourier Transform, BrainArt Filtering Milestone
-Implement convolution, Discrete Fourier Transform; complete BrainArt Milestone 2
+### Week 5: (July 14): Convolution, Fourier Transform
+Implement convolution, Discrete Fourier Transform
 
 ### Week 6: (July 21) Digital Signal Processing I
 Convolution, impulse responses, signal types, continuous vs discrete, aliasing, Nyquist's Theorem, FIR vs IIR, different types of filters, filter
 order
 
-### Week 7: (July 28) Digital Signal Processing II
-Scenario-based practice of DSP I concepts
+### Week 7: (July 28) Digital Signal Processing II, Milestone 2
+Scenario-based practice of DSP I concepts, complete BrainArt Milestone 2
 
 ### Week 8: (August 4) Uncovering Oscillatory Processes in EEG
 What exactly is EEG, physics of EEG, oscillatory processes vs ERPs, power spectral analysis for EEG power bands
 
-### Week 9: (August 11) Advanced Git, BrainArt working session
-How to use GitHub to code as a team, dev session for BrainArt (offline data)
+### Week 9: (August 11) Advanced Git, BrainArt working session, Milestone 3
+How to use GitHub to code as a team, dev session for BrainArt (offline data), complete BrainArt Milestone 3
 
-### Week 10: (August 18) BrainArt working session
-Dev session for BrainArt (online with Muse)
+### Week 10: (August 18) BrainArt working session, Milestone 4
+Dev session for BrainArt (online with Muse), complete BrainArt Milestone 4
 
 ### Week 11: (August 25) Present brain art!
 Present brain art piece to NeurotechUofT faculty advisors, prizes, and fun!!
@@ -89,11 +101,10 @@ Front-end programming with Angular, signal acquisition from the Muse using MuseJ
 Milestone: Make an app printing out raw data from the Muse in real-time
 
 Preparation: 
-- Get started with Angular: `./workshop_2018_2019/angular_workshop.md`
+- Get started with Angular: `./workshop_2018_2019/angular_readings.md`
 
 Materials:
-- [Tour of Heroes: Angular Tutorial](https://angular.io/tutorial)
-TBD
+- Muse Intro Exercise `./workshop_2018_2019/muse-intro.md`
 
 ### Week 5: (July 14) Convolution, Fourier Transform
 Implement convolution, Fourier Transform
