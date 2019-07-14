@@ -10,6 +10,9 @@ This is going to be a cross of our workshops from 2017-2018 and our initial Prez
 
 **NOTE 2**: We're trying to cram a lot of crazy things in the span of a semester! This means we really have to rely on readings to prep you for each week's workshop. **Please make sure to do the mandatory readings** and any **mandatory prep noted** before you come to the workshop, as it will make understanding the material infinitely easier :)
 
+### (To sync this version of workshops with your version, follow the instructions in this link!)
+https://www.sitepoint.com/quick-tip-sync-your-fork-with-the-original-without-the-cli/
+
 ## Milestones
 Milestone 1: Make an app printing out raw data from the Muse in real-time
 
