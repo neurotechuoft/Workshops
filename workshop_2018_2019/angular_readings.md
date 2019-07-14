@@ -6,7 +6,7 @@ To get started:
 - Install Node.js and npm from: https://nodejs.org/en/download/
 - Install Angular by running this command on your terminal: 
 ```
-npm install -g angular-cli
+npm install -g @angular/cli
 ```
 
 Just in case you get stuck, here is a detailed guide on setting up your environment: https://angular.io/guide/setup-local
