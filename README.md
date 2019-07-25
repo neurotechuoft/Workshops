@@ -79,7 +79,7 @@ Materials:
 - A scientific history of neuroscience discoveries: https://prezi.com/view/RdfcOLXBP5OGB31zeFbt
 - Neuroanatomy: https://prezi.com/view/x5Wa2d2EKLPrAFFkhRNt
 
-### Week 3 (June 30): Loading and Graphing Data, Noise Filtering
+### Week 3 (July 7): Loading and Graphing Data, Noise Filtering
 How to load data from CSVs (or FIFs), graphing data with MatPlotLib, filtering noise in Python, and an introduction to the Fast Fourier Transform
 
 Preparation:
@@ -95,10 +95,10 @@ Materials:
 
 - start graphing our first signals! (just the Week 2 notebooks) `./workshop_2018_2019/notebooks/exercises/`
 
-### Week 4: (July 7) Intro to Angular, MuseJs
+### Week 4: (July 14) Intro to Angular, MuseJs
 Front-end programming with Angular, signal acquisition from the Muse using MuseJs, BrainArt architecture
 
-Milestone: Make an app printing out raw data from the Muse in real-time
+Milestone 1: Make an app printing out raw data from the Muse in real-time
 
 Preparation: 
 - Get started with Angular: `./workshop_2018_2019/angular_readings.md`
@@ -106,61 +106,61 @@ Preparation:
 Materials:
 - Muse Intro Exercise `./workshop_2018_2019/muse-intro.md`
 
-### Week 5: (July 14) Convolution, Fourier Transform
-Implement convolution, Fourier Transform
-
-Materials: TBD
+### Week 5: (July 21) Convolution, Fourier Transform
+Overview of convolution, Fourier Transform
 
 Preparation:
 - [ANTSD Chapter 10: The Dot Product and Convolution](./workshop_2018_2019/readings/wk2-cohen2014-chap10.pdf)
 - [ANTSD Chapter 11: The Discrete Time Fourier Transform, the FFT, and the Convolution Theorem](./workshop_2018_2019/readings/wk2-cohen2014-chap11.pdf)
 
-### Week 6: (July 21) Digital Signal Processing I
+Materials: (lecture)
+
+### Week 6: (July 28) Digital Signal Processing I
 Convolution, impulse responses, signal types, continuous vs discrete, aliasing, Nyquist's Theorem, FIR vs IIR, different types of filters, filter
 order
-
-Materials: TBD
 
 Prepraration:
 - [Introduction to Filters: FIR versus IIR](https://community.plm.automation.siemens.com/t5/Testing-Knowledge-Base/Introduction-to-Filters-FIR-versus-IIR/ta-p/520959)
 
-### Week 7: (July 28) Digital Signal Processing II, Filtering Noise in Angular
+Materials: `./notes/Workshop6.pdf`
+
+### Week 7: (August 4) Digital Signal Processing II, Filtering Noise in Angular
 Scenario-based practice of DSP I concepts, Filtering noise in Angular
 
-Milestone: Filter data from the Muse in your app in real-time
+Milestone 2: Filter data from the Muse in your app in real-time
 
 Preparation:
 - Review Week 6 material
 
 Materials: TBD
 
-### Week 8: (August 4) Uncovering Oscillatory Processes in EEG
+### Week 8: (August 11) Uncovering Oscillatory Processes in EEG
 What exactly is EEG, physics of EEG, oscillatory processes vs ERPs, power spectral analysis for EEG power bands
 
 Preparation:
 - Review Week 2, Week 6
 - [Wait But Why: Neuralink - Brain-Machine Interfaces](https://waitbutwhy.com/2017/04/neuralink.html#part3)
 
-Materials: TBD
+Materials: `/notes/Workshop8.pdf`
 
-### Week 9: (August 11) Advanced Git, BrainArt working session
+### Week 9: (August 18) Advanced Git, BrainArt working session
 How to use GitHub to code as a team, dev session for BrainArt (offline data)
 
-Milestone
+Milestone 3: Design, implement, and verify EEG interpretation algorithm on pre-collected data in Python
 
 Preparation:
 - Practicing Git branches: https://learngitbranching.js.org/
 
 Materials: TBD
 
-### Week 10: (August 18) BrainArt working session
+### Week 10: (August 25) BrainArt working session
 Dev session for BrainArt (online with Muse)
 
-Milestone
+Milestone 4: Implement and verify real-time EEG interpretation algorithm in Angular
 
 Preparation: TBD
 
 Materials: TBD
 
-### Week 11: (August 25) Present brain art!
+### Week 11: (mid-September) Present brain art!
 Present brain art piece to NeurotechUofT faculty advisors, prizes, and fun!!
