@@ -10,6 +10,9 @@ This is going to be a cross of our workshops from 2017-2018 and our initial Prez
 
 **NOTE 2**: We're trying to cram a lot of crazy things in the span of a semester! This means we really have to rely on readings to prep you for each week's workshop. **Please make sure to do the mandatory readings** and any **mandatory prep noted** before you come to the workshop, as it will make understanding the material infinitely easier :)
 
+## Textbook
+There is no official textbook for this course; however Week 5 will rely on ***Analyzing Neural Time Series Data*** by Mike Cohen. You can find the book through [the UofT Library system](http://cognet.mit.edu.myaccess.library.utoronto.ca/book/analyzing-neural-time-series-data).
+
 ### (To sync this version of workshops with your version, follow the instructions in this link!)
 https://www.sitepoint.com/quick-tip-sync-your-fork-with-the-original-without-the-cli/
 
@@ -110,8 +113,8 @@ Materials:
 Overview of convolution, Fourier Transform
 
 Preparation:
-- [ANTSD Chapter 10: The Dot Product and Convolution](./workshop_2018_2019/readings/wk2-cohen2014-chap10.pdf)
-- [ANTSD Chapter 11: The Discrete Time Fourier Transform, the FFT, and the Convolution Theorem](./workshop_2018_2019/readings/wk2-cohen2014-chap11.pdf)
+- ANTSD Chapter 10: The Dot Product and Convolution
+- ANTSD Chapter 11: The Discrete Time Fourier Transform, the FFT, and the Convolution Theorem
 
 Materials: (lecture)
 
