@@ -18,13 +18,15 @@ We will rely on a few textbooks. Chapters 1-5 from the Deep Learning Book (freel
 
 ## Sections
 ### Section 1: Machine Learning and ERPs
+* NumPy
 * Linear algebra concepts
-* Bias, variance
-* Optimization
-* Normalization
+* Intro to stats: mean, median, mode, what is probability, conditional, joint, marginal, Baye's rule
 * Sampling, sample sizes, confidence intervals?
+* Bias, variance
+* MLE, E/M
+* Normalization
 * Bootstrapping, bagging
-* SVM, LDA, random forest
+* SVM, LDA, random forest, k-means
 * Epoching, windowing
 ### Section 2: Analog Electronics for Physiology
 * Analog electronics

@@ -145,7 +145,7 @@ Preparation:
 - [Wait But Why: Neuralink - Brain-Machine Interfaces](https://waitbutwhy.com/2017/04/neuralink.html#part3)
 
 Materials: `/notes/Workshop8.pdf`
-
+ 
 ### Week 9: (August 18) Advanced Git, BrainArt working session
 How to use GitHub to code as a team, dev session for BrainArt (offline data)
 
