@@ -51,7 +51,7 @@ History, how neurons work (brief intro), neuroanatomy review, Rall's cable theor
 
 ### Week 8: (November 10) How to Dissect Journal Articles
 
-### NOVEMBER 17: Break
+### NOVEMBER 17-24: Break
 
 ### Week 9: (December 1) Neuroscience II
 
