@@ -28,38 +28,67 @@ Milestone 4: Implement and verify real-time EEG interpretation algorithm in Angu
 ## Syllabus:
 *(For details, scroll down to "Weekly Details")*
 
-### Week 1: (June 16) Intro to Python
+### Week 1: (September 15) Intro to Python
 Absolute basics of programming
 
-### Week 2 (June 23): Intro to Neuroscience
-History, how neurons work (brief intro), neuroanatomy review, Rall's cable theory, membrane potential (Nernst, GHK, HH equations)
+### Week 2: (September 22) Problem Solving with Code
+Some programming, problem solving practice
 
-### Week 3 (June 30): Loading and Graphing Data, Noise Filtering
+### Week 3: (September 29) Intro to Angular
+
+### Week 4: (October 6) Conda, Git, NPM
+
+### Week 5: (October 13) Loading and Graphing Data, Noise Filtering
 How to load data from CSVs (or FIFs), graphing data with MatPlotLib, filtering noise, and an introduction to the Fast Fourier Transform
 
-### Week 4: (July 7) Intro to Angular, MuseJs, Milestone 1
+### OCTOBER 20: Break
+
+### Week 6: (October 27) Intro to MuseJs, Milestone 1
 Front-end programming with Angular, signal acquisition from the Muse using MuseJs, BrainArt architecture, complete BrainArt Milestone 1
 
-### Week 5: (July 14): Convolution, Fourier Transform
-Implement convolution, Discrete Fourier Transform
+### Week 7: (November 3) Intro to Neuroscience
+History, how neurons work (brief intro), neuroanatomy review, Rall's cable theory, membrane potential (Nernst, GHK, HH equations)
 
-### Week 6: (July 21) Digital Signal Processing I
+### Week 8: (November 10) How to Dissect Journal Articles
+
+### NOVEMBER 17-24: Break
+
+### Week 9: (December 1) Neuroscience II
+
+### DECEMBER 2-JANUARY 6: EXAM BREAK
+
+### Week 10: (January 12) Convolution, Fourier Transform
+Lecture about convolution, Discrete Fourier Transform
+
+### Week 11: (January 19) Digital Signal Processing I
 Convolution, impulse responses, signal types, continuous vs discrete, aliasing, Nyquist's Theorem, FIR vs IIR, different types of filters, filter
 order
 
-### Week 7: (July 28) Digital Signal Processing II, Milestone 2
+### Week 12: (January 26) Digital Signal Processing II, Milestone 2
 Scenario-based practice of DSP I concepts, complete BrainArt Milestone 2
 
-### Week 8: (August 4) Uncovering Oscillatory Processes in EEG
+### Week 13: (February 2) Uncovering Oscillatory Processes in EEG
 What exactly is EEG, physics of EEG, oscillatory processes vs ERPs, power spectral analysis for EEG power bands
 
-### Week 9: (August 11) Advanced Git, BrainArt working session, Milestone 3
-How to use GitHub to code as a team, dev session for BrainArt (offline data), complete BrainArt Milestone 3
+### Week 14: (February 9) Programming in a Team I
+Advanced Git, OOP
 
-### Week 10: (August 18) BrainArt working session, Milestone 4
+### FEBRUARY 16: BREAK
+
+### Week 15: (February 23) Programming in a Team II
+Design Patterns, General Best Practices
+
+### Week 16: (March 1) BrainArt working session
+Dev session for BrainArt (offline data), complete BrainArt Milestone 3
+
+### Week 17: (March 8) BrainArt working session, Milestone 3
+
+### MARCH 15: BREAK
+
+### Week 18: (March 22) BrainArt working session, Milestone 4
 Dev session for BrainArt (online with Muse), complete BrainArt Milestone 4
 
-### Week 11: (August 25) Present brain art!
+### Week 19: (March 29) Present brain art!
 Present brain art piece to NeurotechUofT faculty advisors, prizes, and fun!!
 
 ## Weekly Details
