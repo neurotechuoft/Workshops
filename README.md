@@ -37,12 +37,12 @@ Absolute basics of programming
 ### Week 2: (October 6) Problem Solving with Code
 Some programming, problem solving practice
 
-### Week 3: (October 13) Intro to Angular
+### Week 3: (October 13) Conda, Git, Terminal - Jun Wei, Nizar
 
-### Week 4: (October 20) Conda, Git, NPM
-
-### Week 5: (October 27) Loading and Graphing Data, Noise Filtering
+### Week 4: (October 20) Loading and Graphing Data, Noise Filtering
 How to load data from CSVs (or FIFs), graphing data with MatPlotLib, filtering noise, and an introduction to the Fast Fourier Transform.
+
+### Week 5: (October 27) Intro to Angular
 
 ### Week 6: (November 3) Intro to MuseJs, Milestone 1
 Front-end programming with Angular, signal acquisition from the Muse using MuseJs, BrainArt architecture, complete BrainArt Milestone 1.
@@ -52,11 +52,11 @@ History, how neurons work (brief intro), neuroanatomy review, Rall's cable theor
 
 ### NOVEMBER 17-24: Break
 
-### Week 8: (December 1) How to Dissect Journal Articles
+### Week 8: (December 1) NeuroScience II
 
 ### DECEMBER 2-JANUARY 6: EXAM BREAK
 
-### Week 9: (January 12) Neuroscience II
+### Week 9: (January 12) Reading Papers???
 
 ### Week 10: (January 19) Convolution, Fourier Transform
 Lecture about convolution, Discrete Fourier Transform.
