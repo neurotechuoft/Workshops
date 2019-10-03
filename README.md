@@ -87,3 +87,11 @@ Dev session for BrainArt (online with Muse), complete BrainArt Milestone 4.
 
 ### Week 19: (March 29) Present brain art!
 Present brain art piece to NeurotechUofT faculty advisors, prizes, and fun!!
+
+
+## Weekly Details
+### Week 1: (June 16) Intro to Python
+Absolute basics of programming
+
+Materials:
+- learn Python! http://bit.ly/ntuoft-workshop-2
