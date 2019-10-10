@@ -49,10 +49,10 @@ How to load data from CSVs (or FIFs), graphing data with MatPlotLib, filtering n
 ### Week 6: (November 18) Intro to MuseJs, Milestone 1
 Front-end programming with Angular, signal acquisition from the Muse using MuseJs, BrainArt architecture, complete BrainArt Milestone 1.
 
-### Week 7: (November 25) Intro to Neuroscience
+### Week 7: (November 25) Intro to Neuroscience - Parry
 History, how neurons work (brief intro), neuroanatomy review, Rall's cable theory, membrane potential (Nernst, GHK, HH equations).
 
-### Week 8: (December 2) NeuroScience II + How to Read Papers
+### Week 8: (December 2) NeuroScience II + How to Read Papers - Huda Abdulahi
 
 ### DECEMBER 3-JANUARY 6: EXAM BREAK
 
