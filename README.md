@@ -31,7 +31,7 @@ Milestone 4: Implement and verify real-time EEG interpretation algorithm in Angu
 ## Syllabus:
 *(For details, scroll down to "Weekly Details")*
 
-### Week 1: (September 29) Intro to Python
+### Week 1: (September 30) Intro to Python
 Absolute basics of programming
 
 ### Week 2: (October 7) Problem Solving with Code
@@ -85,3 +85,18 @@ Dev session for BrainArt (online with Muse), complete BrainArt Milestone 4.
 
 ### Week 19: (March 30) Present brain art!
 Present brain art piece to NeurotechUofT faculty advisors, prizes, and fun!!
+
+
+## Weekly Details
+### Week 1: (September 30) Intro to Python
+Absolute basics of programming
+
+Materials:
+- learn Python! http://bit.ly/ntuoft-workshop-2
+
+### Week 2 (October 7): Problem Solving with Code
+Some programming, problem solving practice
+
+Preparation:
+- [Wait But Why: Neuralink - The Human Colossus](https://waitbutwhy.com/2017/04/neuralink.html#part1)
+- Practice Python (30 mins per day): https://codecombat.com/
