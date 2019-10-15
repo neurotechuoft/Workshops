@@ -1,7 +1,7 @@
 This guide is for getting **Miniconda** (light weight version of Anaconda) up and running on your local computer and ready for starting a new project. If you have trouble at any point, most if not all the information can be found here: https://conda.io/projects/conda/en/latest/user-guide/getting-started.html
 
 # Installation
-Follow the instructions here to download and install Miniconda with Python 3: https://docs.conda.io/projects/continuumio-conda/en/latest/user-guide/install/index.html. You will be using this throughout the workshops. 
+Follow this link for installation of conda [choose the 64 bit Python 3.7 version for your OS (Windows/Mac/Linux)]: https://docs.conda.io/en/latest/miniconda.html. You will be using this throughout the workshops. 
 
 ## Installing conda on a system with other Python installations
 **YOU DO NOT NEED TO UNINSTALL ANY VERSION OF PYTHON YOU CURRENTLY HAVE INSTALLED.**
