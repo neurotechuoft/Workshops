@@ -1,3 +1,7 @@
+### Week 3 (October 21): Git, Conda, Terminal
+https://docs.google.com/document/d/1_VC2Wxz-Qt1g_5Hoh6R5Z6Ln_moHM4Nn7CvTpkcmmS8/edit?usp=sharing
+
+
 # Intro to Neurotech: 2019/2020
 Make artwork representing your brain with the Muse EEG headband, and learn about neurotech in the process!
 
@@ -101,5 +105,3 @@ Preparation:
 - [Wait But Why: Neuralink - The Human Colossus](https://waitbutwhy.com/2017/04/neuralink.html#part1)
 - Practice Python (30 mins per day): https://codecombat.com/
 
-### Week 3 (October 21): Git, Conda, Terminal
-https://docs.google.com/document/d/1_VC2Wxz-Qt1g_5Hoh6R5Z6Ln_moHM4Nn7CvTpkcmmS8/edit
