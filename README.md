@@ -59,31 +59,31 @@ History, how neurons work (brief intro), neuroanatomy review, Rall's cable theor
 ### Week 9: (January 13) Convolution, Fourier Transform
 Lecture about convolution, Discrete Fourier Transform.
 
-### Week 11: (January 20) Digital Signal Processing I
+### Week 10: (January 20) Digital Signal Processing I
 Convolution, impulse responses, signal types, continuous vs discrete, aliasing, Nyquist's Theorem, FIR vs IIR, different types of filters, filter order.
 
-### Week 12: (January 27) Digital Signal Processing II, Milestone 2
+### Week 11: (January 27) Digital Signal Processing II, Milestone 2
 Scenario-based practice of DSP I concepts, complete BrainArt Milestone 2.
 
-### Week 13: (February 3) Uncovering Oscillatory Processes in EEG
+### Week 12: (February 3) Uncovering Oscillatory Processes in EEG
 What exactly is EEG, physics of EEG, oscillatory processes vs ERPs, power spectral analysis for EEG power bands.
 
-### Week 14: (February 10) Programming in a Team I
+### Week 13: (February 10) Programming in a Team I
 Advanced Git, OOP, General Best Practices.
 
 ### FEBRUARY 17-21: READING WEEK
 
-### Week 16: (Febuary 24) BrainArt working session
+### Week 14: (Febuary 24) BrainArt working session
 Dev session for BrainArt (offline data), complete BrainArt Milestone 3.
 
-### Week 17: (March 2) BrainArt working session, Milestone 3
+### Week 15: (March 2) BrainArt working session, Milestone 3
 
 ### MARCH 16: BREAK
 
-### Week 18: (March 23) BrainArt working session, Milestone 4
+### Week 16: (March 23) BrainArt working session, Milestone 4
 Dev session for BrainArt (online with Muse), complete BrainArt Milestone 4.
 
-### Week 19: (March 30) Present brain art!
+### Week 17: (March 30) Present brain art!
 Present brain art piece to NeurotechUofT faculty advisors, prizes, and fun!!
 
 
