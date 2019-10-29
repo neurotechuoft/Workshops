@@ -63,31 +63,31 @@ History, how neurons work (brief intro), neuroanatomy review, Rall's cable theor
 ### Week 9: (January 13) Convolution, Fourier Transform
 Lecture about convolution, Discrete Fourier Transform.
 
-### Week 11: (January 20) Digital Signal Processing I
+### Week 10: (January 20) Digital Signal Processing I
 Convolution, impulse responses, signal types, continuous vs discrete, aliasing, Nyquist's Theorem, FIR vs IIR, different types of filters, filter order.
 
-### Week 12: (January 27) Digital Signal Processing II, Milestone 2
+### Week 11: (January 27) Digital Signal Processing II, Milestone 2
 Scenario-based practice of DSP I concepts, complete BrainArt Milestone 2.
 
-### Week 13: (February 3) Uncovering Oscillatory Processes in EEG
+### Week 12: (February 3) Uncovering Oscillatory Processes in EEG
 What exactly is EEG, physics of EEG, oscillatory processes vs ERPs, power spectral analysis for EEG power bands.
 
-### Week 14: (February 10) Programming in a Team I
+### Week 13: (February 10) Programming in a Team I
 Advanced Git, OOP, General Best Practices.
 
 ### FEBRUARY 17-21: READING WEEK
 
-### Week 16: (Febuary 24) BrainArt working session
+### Week 14: (Febuary 24) BrainArt working session
 Dev session for BrainArt (offline data), complete BrainArt Milestone 3.
 
-### Week 17: (March 2) BrainArt working session, Milestone 3
+### Week 15: (March 2) BrainArt working session, Milestone 3
 
 ### MARCH 16: BREAK
 
-### Week 18: (March 23) BrainArt working session, Milestone 4
+### Week 16: (March 23) BrainArt working session, Milestone 4
 Dev session for BrainArt (online with Muse), complete BrainArt Milestone 4.
 
-### Week 19: (March 30) Present brain art!
+### Week 17: (March 30) Present brain art!
 Present brain art piece to NeurotechUofT faculty advisors, prizes, and fun!!
 
 
@@ -105,3 +105,10 @@ Preparation:
 - [Wait But Why: Neuralink - The Human Colossus](https://waitbutwhy.com/2017/04/neuralink.html#part1)
 - Practice Python (30 mins per day): https://codecombat.com/
 
+### Week 3 (October 21): Git, Conda, Terminal
+https://docs.google.com/document/d/1_VC2Wxz-Qt1g_5Hoh6R5Z6Ln_moHM4Nn7CvTpkcmmS8/edit
+
+### Week 4 (October 28): Intro to Graphing
+https://github.com/neurotechuoft/Workshops/blob/master/workshop_2018_2019/notebooks/exercises/wk2a_data_collection.ipynb
+
+https://github.com/neurotechuoft/Workshops/blob/master/workshop_2018_2019/notebooks/exercises/wk2b_intro_to_signal_processing.ipynb
