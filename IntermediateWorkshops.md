@@ -47,6 +47,7 @@ Week 2: Dissecting Journal Articles
 
 Week 3: Intro to ML
 * Stats, calc, optimization, linAlg
+
 Week 4: OOP / Code Design
 * OOP, design patterns
 * Give them a problem (ie elevator system) and group of 4 designs the code
@@ -93,6 +94,6 @@ Weeks 18--20: Select topics in neurosci, cogsci, psych
 * (some other things that are undecided yet)
 
 Week 21, 22: Select topics in (more) advanced neurotech
-* Network interactions, short-time Fourier Transform
+* Network interactions, short-time Fourier Transform, source localization
 
 Week 23, 24: Final project (concatenation of milestones)

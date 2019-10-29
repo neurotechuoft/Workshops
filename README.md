@@ -1,3 +1,7 @@
+### Week 3 (October 21): Git, Conda, Terminal
+https://docs.google.com/document/d/1_VC2Wxz-Qt1g_5Hoh6R5Z6Ln_moHM4Nn7CvTpkcmmS8/edit?usp=sharing
+
+
 # Intro to Neurotech: 2019/2020
 Make artwork representing your brain with the Muse EEG headband, and learn about neurotech in the process!
 
@@ -108,4 +112,3 @@ https://docs.google.com/document/d/1_VC2Wxz-Qt1g_5Hoh6R5Z6Ln_moHM4Nn7CvTpkcmmS8/
 https://github.com/neurotechuoft/Workshops/blob/master/workshop_2018_2019/notebooks/exercises/wk2a_data_collection.ipynb
 
 https://github.com/neurotechuoft/Workshops/blob/master/workshop_2018_2019/notebooks/exercises/wk2b_intro_to_signal_processing.ipynb
-
