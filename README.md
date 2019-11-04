@@ -108,6 +108,11 @@ Preparation:
 ### Week 3 (October 21): Git, Conda, Terminal
 https://docs.google.com/document/d/1_VC2Wxz-Qt1g_5Hoh6R5Z6Ln_moHM4Nn7CvTpkcmmS8/edit
 
+Git Prep: https://github.com/neurotechuoft/Workshops/blob/master/workshop_2018_2019/git_workshop.md
+Conda Installation + installing required packages: https://github.com/neurotechuoft/Workshops/blob/master/workshop_2018_2019/Conda_setup.md
+How to install Jupyter notebook using Conda in your command prompt: https://jupyter.org/install
+Practice coding skills using Leetcode or Codecombat.
+
 ### Week 4 (October 28): Intro to Graphing
 https://github.com/neurotechuoft/Workshops/blob/master/workshop_2018_2019/notebooks/exercises/wk2a_data_collection.ipynb
 
