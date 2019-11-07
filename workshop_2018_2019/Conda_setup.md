@@ -21,6 +21,7 @@ See here for how to setup and manage an environment with conda: https://conda.io
 The main commands related to packages in conda are "search", "list", and "install". More information can be found here: https://conda.io/projects/conda/en/latest/user-guide/getting-started.html#managing-packages
 
 You will need to install the following packages:
+- pip
 - numpy
 - matplotlib
 - biosppy
@@ -29,6 +30,8 @@ You will need to install the following packages:
 1) Open "Anaconda Navigator/Terminal"
 2) Go into your project environment (see above). Ex: "conda activate nt". Now should see (nt) on the left side.
 3) Example command: "conda install numpy". Type [y] and press enter to proceed through prompts.
+
+**NOTE**: For *biosppy* you will need to install it a different way. Make sure your environment is activated, and then run `pip install biosppy`. *pip is a different package manager for Python, so to see your pip packages in your Conda environment you'll have to run* `pip list`.
 
 # How to update packages:
 1) Enter your environment (see installing packages)
