@@ -1,6 +1,10 @@
-### Week 3 (October 21): Git, Conda, Terminal
-https://docs.google.com/document/d/1_VC2Wxz-Qt1g_5Hoh6R5Z6Ln_moHM4Nn7CvTpkcmmS8/edit?usp=sharing
-
+### Week 5 (November 18): HMTL workshop
+- Follow this to get started (you can create free account):
+https://www.sololearn.com/Course/HTML/
+- Best resource for learning as well as future reference to look up any syntax:
+https://www.w3schools.com/html/
+- This is also a good resource for the beginners to get started:
+https://www.khanacademy.org/computing/computer-programming/html-css/intro-to-html/v/making-webpages-intro
 
 # Intro to Neurotech: 2019/2020
 Make artwork representing your brain with the Muse EEG headband, and learn about neurotech in the process!
@@ -112,3 +116,11 @@ https://docs.google.com/document/d/1_VC2Wxz-Qt1g_5Hoh6R5Z6Ln_moHM4Nn7CvTpkcmmS8/
 https://github.com/neurotechuoft/Workshops/blob/master/workshop_2018_2019/notebooks/exercises/wk2a_data_collection.ipynb
 
 https://github.com/neurotechuoft/Workshops/blob/master/workshop_2018_2019/notebooks/exercises/wk2b_intro_to_signal_processing.ipynb
+
+### Week 5 (November 18): HMTL workshop
+- Follow this to get started (you can create free account):
+https://www.sololearn.com/Course/HTML/
+- Best resource for learning as well as future reference to look up any syntax:
+https://www.w3schools.com/html/
+- This is also a good resource for the beginners to get started:
+https://www.khanacademy.org/computing/computer-programming/html-css/intro-to-html/v/making-webpages-intro
