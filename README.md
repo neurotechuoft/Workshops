@@ -52,9 +52,9 @@ Finishing up exercise 2 on noise filtering from Week 4.
 ### Week 7: (November 25) Intro to Angular
 
 ### Week 8: (December 2) Intro to MuseJs, Neuroscience (Parry), Milestone 1
-MuseJs: Front-end programming with Angular, signal acquisition from the Muse using MuseJs, BrainArt architecture, complete BrainArt Milestone 1.
+**MuseJs**: Front-end programming with Angular, signal acquisition from the Muse using MuseJs, BrainArt architecture, complete BrainArt Milestone 1.
 
-Neuroscience: History, how neurons work (brief intro), neuroanatomy review, Rall's cable theory, membrane potential (Nernst, GHK, HH equations).
+**Neuroscience**: History, how neurons work (brief intro), neuroanatomy review, Rall's cable theory, membrane potential (Nernst, GHK, HH equations).
 
 ### DECEMBER 3-JANUARY 6: EXAM BREAK
 
@@ -103,30 +103,47 @@ Preparation:
 - [Wait But Why: Neuralink - The Human Colossus](https://waitbutwhy.com/2017/04/neuralink.html#part1)
 - Practice Python (30 mins per day): https://codecombat.com/
 
+Materials:
+- Practice Python problems: https://leetcode.com/problemset/all/
+
 ### Week 3: (October 21) Git, Conda, Terminal
-https://docs.google.com/document/d/1_VC2Wxz-Qt1g_5Hoh6R5Z6Ln_moHM4Nn7CvTpkcmmS8/edit
+**Git**: https://github.com/neurotechuoft/Workshops/blob/master/workshop_2018_2019/git_workshop.md
+
+**Conda**: https://github.com/neurotechuoft/Workshops/blob/master/workshop_2018_2019/Conda_setup.md
 
 ### Week 4: (October 28) Intro to Graphing
-https://github.com/neurotechuoft/Workshops/blob/master/workshop_2018_2019/notebooks/exercises/wk2a_data_collection.ipynb
+Importing and visualizing EEG data
 
-https://github.com/neurotechuoft/Workshops/blob/master/workshop_2018_2019/notebooks/exercises/wk2b_intro_to_signal_processing.ipynb
+Exercise 1: https://github.com/neurotechuoft/Workshops/blob/master/workshop_2018_2019/notebooks/exercises/wk2a_data_collection.ipynb
 
 ### Week 6: (November 18) Intro to Noise Filtering
-https://github.com/neurotechuoft/Workshops/blob/master/workshop_2018_2019/notebooks/exercises/wk2b_intro_to_signal_processing.ipynb
+A continuation of Week 4, filtering EEG data for noise reduction
+
+Exercise 2: https://github.com/neurotechuoft/Workshops/blob/master/workshop_2018_2019/notebooks/exercises/wk2b_intro_to_signal_processing.ipynb
 
 ### Week 7: (November 25) Intro to Angular
-Learning to make a simple web app!
+Learning to make a simple web app
 
 Preparation:
 - Go through SoloLearn's JavaScript tutorial (https://www.sololearn.com/play/javascript) up to Conditionals & Loops and Functions: If you already know the material up to this point, then "Take a Shortcut" and complete Objects and Core Objects
 - Go through SoloLearn's HTML tutorial (https://www.sololearn.com/play/html) until you have completed HTML Basics. Already know HTML? Test your knowledge by selecting "Take a Shortcut" and go back to any sections you missed questions on
 
 Materials:
-- Video tutorial: youtube.com/watch?v=_TLhUCjY9iA
-- Text tutorial: coursetro.com/posts/code/174/Angular-8-Tutorial-&-Crash-Course
+- **Video tutorial**: https://youtube.com/watch?v=_TLhUCjY9iA
+- **Text tutorial**: https://coursetro.com/posts/code/174/Angular-8-Tutorial-&-Crash-Course
 
 Cheatsheets:
-- HTML: https://htmlcheatsheet.com
-- CSS: https://htmlcheatsheet.com/css
-- JavaScript: https://htmlcheatsheet.com/js
-- TypeScript: https://www.sitepen.com/blog/typescript-cheat-sheet
+- **HTML**: https://htmlcheatsheet.com
+- **CSS**: https://htmlcheatsheet.com/css
+- **JavaScript**: https://htmlcheatsheet.com/js
+- **TypeScript**: https://www.sitepen.com/blog/typescript-cheat-sheet
+
+### Week 8: (December 2) Intro to MuseJs, Neuroscience
+Using our skills in Angular to make an app that prints out data acquired from a Muse headset in real-time
+
+Materials: 
+- **MuseJs**: https://github.com/neurotechuoft/Workshops/blob/master/workshop_2018_2019/muse-intro.md
+- **BrainArt**: https://github.com/neurotechuoft/Workshops/tree/master/workshop_2018_2019/brainart
+
+
+
