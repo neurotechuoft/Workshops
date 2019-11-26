@@ -1,7 +1,3 @@
-### Week 3 (October 21): Git, Conda, Terminal
-https://docs.google.com/document/d/1_VC2Wxz-Qt1g_5Hoh6R5Z6Ln_moHM4Nn7CvTpkcmmS8/edit?usp=sharing
-
-
 # Intro to Neurotech: 2019/2020
 Make artwork representing your brain with the Muse EEG headband, and learn about neurotech in the process!
 
@@ -48,15 +44,17 @@ How to load data from CSVs (or FIFs), graphing data with MatPlotLib, filtering n
 
 ### NOVEMBER 4-8: Reading Week
 
-### Week 5: (November 11) Intro to Angular
+### Week 5: (November 11) CONNEXION
 
-### Week 6: (November 18) Intro to MuseJs, Milestone 1
-Front-end programming with Angular, signal acquisition from the Muse using MuseJs, BrainArt architecture, complete BrainArt Milestone 1.
+### Week 6: (November 18) Noise Filtering (continued)
+Finishing up exercise 2 on noise filtering from Week 4.
 
-### Week 7: (November 25) Intro to Neuroscience - Parry
-History, how neurons work (brief intro), neuroanatomy review, Rall's cable theory, membrane potential (Nernst, GHK, HH equations).
+### Week 7: (November 25) Intro to Angular
 
-### Week 8: (December 2) NeuroScience II + How to Read Papers - Huda Abdulahi
+### Week 8: (December 2) Intro to MuseJs, Neuroscience (Parry), Milestone 1
+MuseJs: Front-end programming with Angular, signal acquisition from the Muse using MuseJs, BrainArt architecture, complete BrainArt Milestone 1.
+
+Neuroscience: History, how neurons work (brief intro), neuroanatomy review, Rall's cable theory, membrane potential (Nernst, GHK, HH equations).
 
 ### DECEMBER 3-JANUARY 6: EXAM BREAK
 
@@ -98,17 +96,37 @@ Absolute basics of programming
 Materials:
 - learn Python! http://bit.ly/ntuoft-workshop-2
 
-### Week 2 (October 7): Problem Solving with Code
+### Week 2: (October 7) Problem Solving with Code
 Some programming, problem solving practice
 
 Preparation:
 - [Wait But Why: Neuralink - The Human Colossus](https://waitbutwhy.com/2017/04/neuralink.html#part1)
 - Practice Python (30 mins per day): https://codecombat.com/
 
-### Week 3 (October 21): Git, Conda, Terminal
+### Week 3: (October 21) Git, Conda, Terminal
 https://docs.google.com/document/d/1_VC2Wxz-Qt1g_5Hoh6R5Z6Ln_moHM4Nn7CvTpkcmmS8/edit
 
-### Week 4 (October 28): Intro to Graphing
+### Week 4: (October 28) Intro to Graphing
 https://github.com/neurotechuoft/Workshops/blob/master/workshop_2018_2019/notebooks/exercises/wk2a_data_collection.ipynb
 
 https://github.com/neurotechuoft/Workshops/blob/master/workshop_2018_2019/notebooks/exercises/wk2b_intro_to_signal_processing.ipynb
+
+### Week 6: (November 18) Intro to Noise Filtering
+https://github.com/neurotechuoft/Workshops/blob/master/workshop_2018_2019/notebooks/exercises/wk2b_intro_to_signal_processing.ipynb
+
+### Week 7: (November 25) Intro to Angular
+Learning to make a simple web app!
+
+Preparation:
+- Go through SoloLearn's JavaScript tutorial (https://www.sololearn.com/play/javascript) up to Conditionals & Loops and Functions: If you already know the material up to this point, then "Take a Shortcut" and complete Objects and Core Objects
+- Go through SoloLearn's HTML tutorial (https://www.sololearn.com/play/html) until you have completed HTML Basics. Already know HTML? Test your knowledge by selecting "Take a Shortcut" and go back to any sections you missed questions on
+
+Materials:
+- Video tutorial: youtube.com/watch?v=_TLhUCjY9iA
+- Text tutorial: coursetro.com/posts/code/174/Angular-8-Tutorial-&-Crash-Course
+
+Cheatsheets:
+- HTML: https://htmlcheatsheet.com
+- CSS: https://htmlcheatsheet.com/css
+- JavaScript: https://htmlcheatsheet.com/js
+- TypeScript: https://www.sitepen.com/blog/typescript-cheat-sheet
