@@ -107,8 +107,8 @@ Materials:
 ### Week 3: (October 21) Git, Conda, Terminal
 
 Getting Set Up:
-- **Git**: https://github.com/neurotechuoft/Workshops/blob/master/workshop_2018_2019/git_workshop.md
-- **Conda**: https://github.com/neurotechuoft/Workshops/blob/master/workshop_2018_2019/Conda_setup.md
+- [Git](https://github.com/neurotechuoft/Workshops/blob/master/workshop_2018_2019/git_workshop.md)
+- [Conda](https://github.com/neurotechuoft/Workshops/blob/master/workshop_2018_2019/Conda_setup.md)
 
 ### Week 4: (October 28) Intro to Graphing
 Importing and visualizing EEG data
@@ -128,8 +128,8 @@ Preparation:
 - Go through [SoloLearn's HTML tutorial](https://www.sololearn.com/play/html) until you have completed HTML Basics. Already know HTML? Test your knowledge by selecting "Take a Shortcut" and go back to any sections you missed questions on
 
 Materials:
-- **Video tutorial**: https://youtube.com/watch?v=_TLhUCjY9iA
-- **Text tutorial**: https://coursetro.com/posts/code/174/Angular-8-Tutorial-&-Crash-Course
+- [Video tutorial](https://youtube.com/watch?v=_TLhUCjY9iA)
+- [Text tutorial](https://coursetro.com/posts/code/174/Angular-8-Tutorial-&-Crash-Course)
 
 Cheatsheets:
 - [HTML](https://htmlcheatsheet.com)
@@ -149,3 +149,10 @@ Using our skills in Angular to make an app that prints out data acquired from a 
 
 Materials: 
 - [Intro to MuseJs](https://github.com/neurotechuoft/Workshops/blob/master/workshop_2018_2019/muse-intro.md)
+
+### Week 10: (January 20) Convolution, Fourier Transform
+
+Preparation:
+- Chapters 10 and 11 of <i> Analyzing Neural Time Series Data </i> (available through [UofT Library System](http://cognet.mit.edu.myaccess.library.utoronto.ca/book/analyzing-neural-time-series-data))
+    - [Chapter 10: The Dot Product and Convolution](http://cognet.mit.edu.myaccess.library.utoronto.ca/pdfviewer/book/9780262319553/chap10)
+    - [Chapter 11: The Discrete Time Fourier Transform, the FFT, and the Convolution Theorem](http://cognet.mit.edu.myaccess.library.utoronto.ca/pdfviewer/book/9780262319553/chap11)
