@@ -124,6 +124,7 @@ Complete [Exercise 2](https://github.com/neurotechuoft/Workshops/blob/master/wor
 Learning to make a simple web app
 
 Preparation:
+- [Set up Angular](https://github.com/neurotechuoft/Workshops/blob/master/workshop_2018_2019/angular_readings.md)
 - Go through [SoloLearn's JavaScript tutorial](https://www.sololearn.com/play/javascript) up to Conditionals & Loops and Functions: If you already know the material up to this point, then "Take a Shortcut" and complete Objects and Core Objects
 - Go through [SoloLearn's HTML tutorial](https://www.sololearn.com/play/html) until you have completed HTML Basics. Already know HTML? Test your knowledge by selecting "Take a Shortcut" and go back to any sections you missed questions on
 
@@ -141,11 +142,18 @@ Cheatsheets:
 Including neuronatomy and history
 
 Preparation:
-- Read about the concept of the Human Colossus [Human Colossus](https://waitbutwhy.com/2017/04/neuralink.html#part1) — as explained through a series of comics! (I promise, it's an entertaining read)
+- Read about the concept of the [Human Colossus](https://waitbutwhy.com/2017/04/neuralink.html#part1) — as explained through a series of comics! (I promise, it's an entertaining read)
 - Read this [introduction to the brain](https://waitbutwhy.com/2017/04/neuralink.html#part2) (up until "Part 3", exclusive) — a continuation of the above reading
+
+Materials:
+- [History of Neuroscience](https://prezi.com/view/RdfcOLXBP5OGB31zeFbt)
+- [Neuroanatomy](https://prezi.com/view/x5Wa2d2EKLPrAFFkhRNt)
 
 ### Week 9: (January 13) Intro to MuseJs
 Using our skills in Angular to make an app that prints out data acquired from a Muse headset in real-time
+
+Preparation:
+- Review [Week 7](https://github.com/neurotechuoft/Workshops#week-7-november-25-intro-to-angular-1)
 
 Materials: 
 - [Intro to MuseJs](https://github.com/neurotechuoft/Workshops/blob/master/workshop_2018_2019/muse-intro.md)
@@ -162,6 +170,26 @@ Convolution, impulse responses, signal types, continuous vs discrete, aliasing, 
 
 Prepraration:
 - [Introduction to Filters: FIR versus IIR](https://community.plm.automation.siemens.com/t5/Testing-Knowledge-Base/Introduction-to-Filters-FIR-versus-IIR/ta-p/520959)
+- Review [Week 10](https://github.com/neurotechuoft/Workshops#week-10-january-20-convolution-fourier-transform-1)
 
 Materials: 
 - [Lecture](https://github.com/neurotechuoft/Workshops/blob/master/workshop_2018_2019/notes/Workshop6.pdf)
+
+### Week 12: (February 3) Digital Signal Processing II
+Scenario-based practice of DSP I concepts, complete BrainArt Milestone 2
+
+Preparation:
+- Review [Week 10](https://github.com/neurotechuoft/Workshops#week-10-january-20-convolution-fourier-transform-1) & [Week 11](https://github.com/neurotechuoft/Workshops#week-11-january-27-digital-signal-processing-i-1)
+
+Materials:
+- [Lecture](https://github.com/neurotechuoft/Workshops/blob/master/workshop_2018_2019/notes/Workshop6.pdf)
+
+### Week 13: (February 10) Uncovering Oscillatory Processes in EEG
+What exactly is EEG, physics of EEG, oscillatory processes vs ERPs, power spectral analysis for EEG power bands.
+
+Preparation:
+- [Wait But Why: Neuralink - Brain-Machine Interfaces](https://waitbutwhy.com/2017/04/neuralink.html#part3)
+- Review [Week 8](https://github.com/neurotechuoft/Workshops#week-8-january-6-intro-to-neuroscience-1) and [Week 11](https://github.com/neurotechuoft/Workshops#week-11-january-27-digital-signal-processing-i-1)
+
+Materials:
+- [Lecture](https://github.com/neurotechuoft/Workshops/blob/master/workshop_2018_2019/notes/Workshop8.pdf)
