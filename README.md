@@ -78,13 +78,15 @@ Dev session for BrainArt (offline data), complete BrainArt Milestone 3.
 
 ### Week 15: (March 2) BrainArt working session, Milestone 3
 
-### MARCH 16: BREAK
+### Week 16: (March 9) BrainArt working session
 
-### Week 16: (March 23) BrainArt working session, Milestone 4
+### Week 16: (March 16) BrainArt working session, Milestone 4
 Dev session for BrainArt (online with Muse), complete BrainArt Milestone 4.
 
-### Week 17: (March 30) Present brain art!
-Present brain art piece to NeurotechUofT faculty advisors, prizes, and fun!!
+### Week 17: (March 23) Final BrainArt working session
+
+### Week 18: (March 27) Present brain art!
+Present brain art piece to NeurotechUofT faculty advisors—there will be prizes! (Event details TBA)
 
 
 ## Weekly Details
@@ -193,3 +195,11 @@ Preparation:
 
 Materials:
 - [Lecture](https://github.com/neurotechuoft/Workshops/blob/master/workshop_2018_2019/notes/Workshop8.pdf)
+
+### Week 14 and onward: BrainArt
+
+Use [brainart_starter](https://github.com/neurotechuoft/Workshops/tree/master/workshop_2018_2019/brainart_starter) as a template for your BrainArt.
+- The template is already set up to connect to the Muse headset—it's your job to code for EEG interpretation and visualization.
+- **How should EEG be interpreted and visualized? That's up to you!** You could have signals from the 4 electrodes graphed in real time, you could have signals of different frequencies graphed in real time (e.g. alpha, beta, etc.), you could create a display where electrodes/regions light up with a certain frequency of activation (as in the [brainart](https://github.com/neurotechuoft/Workshops/tree/master/workshop_2018_2019/brainart) example), and so on
+- **How do you interpret EEG?** Review the notebooks from weeks 4 & 6
+- **Struggling with Angular and/or Typescript?** Review the tutorials from week 7
