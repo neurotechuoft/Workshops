@@ -201,5 +201,6 @@ Materials:
 Use [brainart_starter](https://github.com/neurotechuoft/Workshops/tree/master/workshop_2018_2019/brainart_starter) as a template for your BrainArt.
 - The template is already set up to connect to the Muse headset—it's your job to code for EEG interpretation and visualization.
 - **How should EEG be interpreted and visualized? That's up to you!** You could have signals from the 4 electrodes graphed in real time, you could have signals of different frequencies graphed in real time (e.g. alpha, beta, etc.), you could create a display where electrodes/regions light up with a certain frequency of activation (as in the [brainart](https://github.com/neurotechuoft/Workshops/tree/master/workshop_2018_2019/brainart) example), and so on
-- **How do you interpret EEG?** Review the notebooks from weeks 4 & 6
-- **Struggling with Angular and/or Typescript?** Review the tutorials from week 7
+- **How do you process EEG?** Review the notebooks from [Week 4](https://github.com/neurotechuoft/workshops#week-4-october-28-intro-to-graphing) & [Week 6](https://github.com/neurotechuoft/workshops#week-6-november-18-intro-to-noise-filtering), and the lecture from [Weeks 11-12](https://github.com/neurotechuoft/workshops#week-11-january-27-digital-signal-processing-i-1)
+- **How do you interpret EEG?** Review the lecture from [Week 13](https://github.com/neurotechuoft/workshops#week-13-february-10-uncovering-oscillatory-processes-in-eeg-1)
+- **Struggling with Angular and/or Typescript?** Review the tutorials from [Week 7](https://github.com/neurotechuoft/workshops#week-7-november-25-intro-to-angular-1)
