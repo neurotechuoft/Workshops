@@ -31,46 +31,46 @@ Milestone 4: Implement and verify real-time EEG interpretation algorithm in Angu
 ## Syllabus:
 *(For details, scroll down to "Weekly Details")*
 
-### Week 1: (September 28) [Intro to Python](https://github.com/neurotechuoft/Workshops/beginner_2020_2021/week_1_python)
+### Week 1: (September 28) [Intro to Python](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_1_python)
 Absolute basics of programming
 
-### Week 2: (October 5) [Problem Solving with Code](https://github.com/neurotechuoft/Workshops/beginner_2020_2021/week_2_coding_practice)
+### Week 2: (October 5) [Problem Solving with Code](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_2_coding_practice)
 Some programming, problem solving practice
 
-### Week 3: (October 19) [Git & Terminal](https://github.com/neurotechuoft/Workshops/beginner_2020_2021/week_3_git_terminal)
+### Week 3: (October 19) [Git & Terminal](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_3_git_terminal)
 
-### Week 4: (October 26) [Loading and Graphing Data](https://github.com/neurotechuoft/Workshops/beginner_2020_2021/week_4_loading_graphing_data)
+### Week 4: (October 26) [Loading and Graphing Data](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_4_loading_graphing_data)
 How to load data from CSVs (or FIFs) and graph data with MatPlotLib
 
-### Week 5: (November 2) [Noise Filtering](https://github.com/neurotechuoft/Workshops/beginner_2020_2021/week_5_noise_filtering)
+### Week 5: (November 2) [Noise Filtering](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_5_noise_filtering)
 Filtering noise and an introduction to the Fast Fourier Transform
 
 ### NOVEMBER 9-13: Reading Week
 
-### Week 6: (November 16) [Intro to Neuroscience](https://github.com/neurotechuoft/Workshops/beginner_2020_2021/week_6_neuroscience)
+### Week 6: (November 16) [Intro to Neuroscience](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_6_neuroscience)
 History, how neurons work (brief intro), neuroanatomy review, Rall's cable theory, membrane potential (Nernst, GHK, HH equations).
 
-### Week 7: (November 23) [Intro to Angular](https://github.com/neurotechuoft/Workshops/beginner_2020_2021/week_7_angular)
+### Week 7: (November 23) [Intro to Angular](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_7_angular)
 Learning to make a simple web app
 
-### Week 8: (November 30) [Intro to MuseJs](https://github.com/neurotechuoft/Workshops/beginner_2020_2021/week_8_musejs), Milestone 1
+### Week 8: (November 30) [Intro to MuseJs](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_8_musejs), Milestone 1
 Front-end programming with Angular, signal acquisition from the Muse using MuseJs, BrainArt architecture, complete BrainArt Milestone 1.
 
 ### DECEMBER 7-JANUARY 4: EXAM BREAK
 
-### Week 9: (January 11) [Convolution, Fourier Transform](https://github.com/neurotechuoft/Workshops/beginner_2020_2021/week_9_convolution_fourier)
+### Week 9: (January 11) [Convolution, Fourier Transform](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_9_convolution_fourier)
 Lecture about convolution, Discrete Fourier Transform.
 
-### Week 10: (January 18) [Digital Signal Processing I](https://github.com/neurotechuoft/Workshops/beginner_2020_2021/week_10_dsp1)
+### Week 10: (January 18) [Digital Signal Processing I](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_10_dsp1)
 Convolution, impulse responses, signal types, continuous vs discrete, aliasing, Nyquist's Theorem, FIR vs IIR, different types of filters, filter order.
 
-### Week 11: (January 25) [Digital Signal Processing II](https://github.com/neurotechuoft/Workshops/beginner_2020_2021/week_10_dsp1), Milestone 2
+### Week 11: (January 25) [Digital Signal Processing II](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_10_dsp1), Milestone 2
 Scenario-based practice of DSP I concepts, complete BrainArt Milestone 2.
 
-### Week 12: (February 1) [Uncovering Oscillatory Processes in EEG](https://github.com/neurotechuoft/Workshops/beginner_2020_2021/week_12_eeg)
+### Week 12: (February 1) [Uncovering Oscillatory Processes in EEG](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_12_eeg)
 What exactly is EEG, physics of EEG, oscillatory processes vs ERPs, power spectral analysis for EEG power bands.
 
-### Week 13: (February 8) [BrainArt working session](https://github.com/neurotechuoft/Workshops/beginner_2020_2021/brainart)
+### Week 13: (February 8) [BrainArt working session](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/brainart)
 Dev session for BrainArt (offline data), complete BrainArt Milestone 3.
 
 ### FEBRUARY 15-19: READING WEEK
