@@ -26,10 +26,10 @@ We will rely on a few textbooks. Chapters 1-5 from the Deep Learning Book (freel
 
 ### Week 2: (October 5) Dissecting Journal Articles
 
-### Week 3: (October 19) Intro to ML
+### Week 3: (October 19) Intro to Machine Learning (ML)
 * Statistics, calculus, optimization, linear algebra
 
-### Week 4: (October 26) ERPs
+### Week 4: (October 26) Event-Related Potentials (ERPs)
 * Pre-process EEG data
 
 ### Week 5: (November 2) ML II
@@ -43,38 +43,40 @@ We will rely on a few textbooks. Chapters 1-5 from the Deep Learning Book (freel
     * math / stats behind them, implement by yourself
 * ERP detection (offline data)!!
 
-### Week 7: (November 23) ERP experimentation
+### Week 7: (November 23) ERP Experimentation
 * Make your own EEG experiment! 
 
 ### Week 8: (November 30) ML IV (last one)
 * Classify data from your EEG experiment
-30
 
 ### DECEMBER 7-JANUARY 4: EXAM BREAK
 
 ### Week 9: (January 11) Back end / cloud
 * Create real-time Python / Flask service for ML model
 
-### Week 10: (January 18) Intro to electricity (V=IR, etc)
+### Week 10: (January 18) Intro to Electricity
 
-### Week 11: (January 25) RLC circuits
+### Week 11: (January 25) RLC Eircuits
 * Calc, differential equations
 * KCL / KVL, Thevenin's Theorem
 
 ### Week 12: (February 1) Amplifiers & Analog Filters
 
 ### Week 13: (February 8) EEG Device
+* Design your own EEG acquisition device
 
 ### FEBRUARY 15-19: READING WEEK
 
-### Week 14: (February 22) IoT
+### Week 14: (February 22) Internet of Things (IoT)
 
 ### Week 15: (March 1) Neuromodulation
+* Discover the applications of neurotechnology to neuromodulation, the process of regulating nerves through electrical/chemicals stimulation
 
 ### Week 16: (March 8) Advanced Neurotech
 * Network interactions
 * Source localization
 
-### Week 17: (March 15) Working Session
+### Week 17: (March 15) ERP Classifier Working Session
 
 ### Week 18: (March 22) Present your ERP classifier!
+Demo your classifier to NeurotechUofT faculty advisors—there will be prizes! (Event details TBA)
