@@ -1,6 +1,9 @@
 # Intro to Neurotech: 2020/2021
 Make artwork representing your brain with the Muse EEG headband, and learn about neurotech in the process!
 
+## When & Where
+Every Monday from 6-8pm EST on Zoom! (Link provided after sign-up)
+
 ## Format
 Lecturing is boring! Instead, we want pairs of students to work towards the final brain-art project. Pairs will go through each week's notebook, and fill in the code and run it. Mentors will be available to help the pairs debug or understand the overall concepts better.
 
