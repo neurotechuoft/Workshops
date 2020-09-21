@@ -19,64 +19,64 @@ We will rely on a few textbooks. Chapters 1-5 from the Deep Learning Book (freel
 
 ## Syllabus
 
-### Week 1: (September 28) Intro to React
+### Week 1: (September 30) Intro to React
 * Make a simple webpage (HTML, CSS)
 * Add React
 * Visualize some dummy data from CSV
 
-### Week 2: (October 5) Dissecting Journal Articles
+### Week 2: (October 7) Dissecting Journal Articles
 
-### Week 3: (October 19) Intro to Machine Learning (ML)
+### Week 3: (October 21) Intro to Machine Learning (ML)
 * Statistics, calculus, optimization, linear algebra
 
-### Week 4: (October 26) Event-Related Potentials (ERPs)
+### Week 4: (October 28) Event-Related Potentials (ERPs)
 * Pre-process EEG data
 
-### Week 5: (November 2) ML II
+### Week 5: (November 4) ML II
 * Some models, math / stats behind them, implement by yourself
 * Blink detection!
 
 ### NOVEMBER 9-13: Reading Week
 
-### Week 6: (November 16) ML III
+### Week 6: (November 18) ML III
 * LDA, SVM
     * math / stats behind them, implement by yourself
 * ERP detection (offline data)!!
 
-### Week 7: (November 23) ERP Experimentation
+### Week 7: (November 25) ERP Experimentation
 * Make your own EEG experiment! 
 
-### Week 8: (November 30) ML IV (last one)
+### Week 8: (December 2) ML IV (last one)
 * Classify data from your EEG experiment
 
 ### DECEMBER 7-JANUARY 4: EXAM BREAK
 
-### Week 9: (January 11) Back end / cloud
+### Week 9: (January 13) Back end / cloud
 * Create real-time Python / Flask service for ML model
 
-### Week 10: (January 18) Intro to Electricity
+### Week 10: (January 20) Intro to Electricity
 
-### Week 11: (January 25) RLC Eircuits
+### Week 11: (January 27) RLC Eircuits
 * Calc, differential equations
 * KCL / KVL, Thevenin's Theorem
 
-### Week 12: (February 1) Amplifiers & Analog Filters
+### Week 12: (February 3) Amplifiers & Analog Filters
 
-### Week 13: (February 8) EEG Device
+### Week 13: (February 10) EEG Device
 * Design your own EEG acquisition device
 
 ### FEBRUARY 15-19: READING WEEK
 
-### Week 14: (February 22) Internet of Things (IoT)
+### Week 14: (February 24) Internet of Things (IoT)
 
-### Week 15: (March 1) Neuromodulation
+### Week 15: (March 3) Neuromodulation
 * Discover the applications of neurotechnology to neuromodulation, the process of regulating nerves through electrical/chemicals stimulation
 
-### Week 16: (March 8) Advanced Neurotech
+### Week 16: (March 10) Advanced Neurotech
 * Network interactions
 * Source localization
 
-### Week 17: (March 15) ERP Classifier Working Session
+### Week 17: (March 17) ERP Classifier Working Session
 
-### Week 18: (March 22) Present your ERP classifier!
+### Week 18: (March 24) Present your ERP classifier!
 Demo your classifier to NeurotechUofT faculty advisors—there will be prizes! (Event details TBA)
