@@ -3,7 +3,7 @@
 Just like the Intro to Neurotech course, this course will rely heavily on labs to make the workshops more interactive and experiential. The course will center around a year-long project, and each week will have milestones leading to the completion of a part of this project. Lectures will be used as a way of conveying theoretical material, and readings will be used to supplement each week's lab. In addition, a paper that relates to the week's topic will be assigned each week for skimming.
 
 ## When & Where
-Every Wednesday from 6-8pm on Zoom! (Link provided following sign-up)
+Every Wednesday from 6-8pm EST on Zoom! (Link provided following sign-up)
 
 ## Textbook
 We will rely on a few textbooks. Chapters 1-5 from the Deep Learning Book (freely available) (Ian Goodfellow, Yoshua Bengio, Aaron Courville) will supplement material for Weeks 2, 5, and 6. A textbook for Weeks 10-16 (hardware) will be posted soon. Weeks 17-24 will feature selected chapters from various textbooks and journal articles.
