@@ -21,7 +21,7 @@ We will rely on a few textbooks. Chapters 1-5 from the Deep Learning Book (freel
 
 ## Syllabus
 
-### Week 1: (September 30) Dissecting Journal Articles
+### Week 1: (September 30) [Dissecting Journal Articles](https://github.com/neurotechuoft/Workshops/blob/master/intermediate_2020_2021/Dissecting%20Journal%20Articles%202.pdf)
 
 ### Week 2: (October 7) Intro to React
 * Make a simple webpage (HTML, CSS)
