@@ -1,8 +1,8 @@
 # Week 1: (September 30) Dissecting Journal Articles
 
-[Lecture Slides](https://github.com/neurotechuoft/Workshops/blob/master/intermediate_2020_2021/Dissecting%20Journal%20Articles%202.pdf)
+[Lecture Slides](https://github.com/neurotechuoft/Workshops/blob/master/intermediate_2020_2021/week_1_dissecting_journal_articles/.Dissecting%20Journal%20Articles.pdf)
 
-[Lecture Recording]
+[Lecture Recording][https://github.com/neurotechuoft/Workshops/blob/master/intermediate_2020_2021/week_1_dissecting_journal_articles/.week_1_dissecting_journal_articles.mp4]
 
 Possible topics for post-lecture activity:
 - Topic 1:
