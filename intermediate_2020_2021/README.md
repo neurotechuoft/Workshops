@@ -28,6 +28,8 @@ We will rely on a few textbooks. Chapters 1-5 from the Deep Learning Book (freel
 * Add React
 * Visualize some dummy data from CSV
 
+### OCTOBER 14: Thanksgiving Break
+
 ### Week 3: (October 21) Intro to Machine Learning (ML)
 * Statistics, calculus, optimization, linear algebra
 
