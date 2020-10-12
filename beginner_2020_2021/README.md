@@ -40,6 +40,8 @@ Absolute basics of programming
 ### Week 2: (October 5) [Problem Solving with Code](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_2_coding_practice)
 Some programming, problem solving practice
 
+### OCTOBER 12: Thanksgiving Break
+
 ### Week 3: (October 19) [Git & Terminal](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_3_git_terminal)
 
 ### Week 4: (October 26) [Loading and Graphing Data](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_4_loading_graphing_data)
