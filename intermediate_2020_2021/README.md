@@ -26,7 +26,6 @@ We will rely on a few textbooks. Chapters 1-5 from the Deep Learning Book (freel
 ### Week 2: (October 7) [Intro to React](https://github.com/neurotechuoft/Workshops/tree/master/intermediate_2020_2021/week_2_intro_to_react)
 * Make a simple webpage (HTML, CSS)
 * Add React
-* Visualize some dummy data from CSV
 
 ### OCTOBER 14: Thanksgiving Break
 
