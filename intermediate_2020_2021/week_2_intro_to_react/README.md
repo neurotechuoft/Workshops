@@ -12,7 +12,7 @@
 - You can't make a brain-computer interface without an interface! After all, we want to be able to view and interact with our data
 - React is currently the most popular choice among developers for making a UI
 
-[Lecture Recording][https://drive.google.com/file/d/1brZSshh4nZi_LIeAsZsIaBjUAWcCP-gA/view?usp=sharing]
+[Lecture Recording](https://drive.google.com/file/d/1brZSshh4nZi_LIeAsZsIaBjUAWcCP-gA/view?usp=sharing)
 
 ### If you missed the session:
 1. Check out the lecture recording above! It's a rather brief intro/demo to what React is and what it can do
