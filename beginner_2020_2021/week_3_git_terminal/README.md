@@ -1,3 +1,9 @@
+# Week 3: (October 19) Git & Terminal
+
+## Missed the session?
+- [Lecture Slides](https://github.com/neurotechuoft/Workshops/blob/master/beginner_2020_2021/week_3_git_terminal/week_3_git_terminal.pdf)
+- [Lecture Recording](https://drive.google.com/file/d/1T5BI64DURORAGgf0vAZSnYXQnsodqTuK/view?usp=sharing)
+
 # Github basics
 Github is a collective workspace for collaboration with other programmers so that you can work on big projects together. It can also act like your online portfolio which you can put on your resume, to showcase all your personal projects which you are proud of.
 
