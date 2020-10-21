@@ -29,8 +29,9 @@ We will rely on a few textbooks. Chapters 1-5 from the Deep Learning Book (freel
 
 ### OCTOBER 14: Thanksgiving Break
 
-### Week 3: (October 21) Intro to Machine Learning (ML)
+### Week 3: (October 21) [Intro to Machine Learning (ML)](https://github.com/neurotechuoft/Workshops/tree/master/intermediate_2020_2021/week_3_ML_I)
 * Statistics, calculus, optimization, linear algebra
+* Getting started with models
 
 ### Week 4: (October 28) Event-Related Potentials (ERPs)
 * Pre-process EEG data
