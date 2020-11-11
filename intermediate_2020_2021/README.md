@@ -36,9 +36,8 @@ We will rely on a few textbooks. Chapters 1-5 from the Deep Learning Book (freel
 ### Week 4: (October 28) Event-Related Potentials (ERPs)
 * Pre-process EEG data
 
-### Week 5: (November 4) ML II
+### Week 5: (November 4) [ML II](https://github.com/neurotechuoft/Workshops/tree/master/intermediate_2020_2021/week_5_ML_II)
 * Some models, math / stats behind them, implement by yourself
-* Blink detection!
 
 ### NOVEMBER 9-13: Reading Week
 
