@@ -1,4 +1,4 @@
-# Week 6: (November 16) Intro to Neuroscience
+# Week 6: (November 2) Intro to Neuroscience
 ### Including neuronatomy and history
 
 Preparation:
@@ -8,3 +8,5 @@ Preparation:
 Materials:
 - [History of Neuroscience](https://prezi.com/view/RdfcOLXBP5OGB31zeFbt)
 - [Neuroanatomy](https://prezi.com/view/x5Wa2d2EKLPrAFFkhRNt)
+
+[Lecture Recording](https://drive.google.com/file/d/1JzxFBP0KWJEjayqFxC-_MHZNVUwLdkB1/view?usp=sharing)
