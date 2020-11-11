@@ -47,13 +47,14 @@ Some programming, problem solving practice
 ### Week 4: (October 26) [Loading and Graphing Data](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_4_loading_graphing_data)
 How to load data from CSVs (or FIFs) and graph data with MatPlotLib
 
-### Week 5: (November 2) [Noise Filtering](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_5_noise_filtering)
+### Week 5: (October 26) [Noise Filtering](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_5_noise_filtering)
 Filtering noise and an introduction to the Fast Fourier Transform
+- Note: we moved through the content of Week 4 quickly and thus ended up finishing the Week 5 content before it was actually Week 5. Week 6 technically became Week 5, but we'll ignore that.
+
+### Week 6: (November 2) [Intro to Neuroscience](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_6_neuroscience)
+History, how neurons work (brief intro), neuroanatomy review, Rall's cable theory, membrane potential (Nernst, GHK, HH equations).
 
 ### NOVEMBER 9-13: Reading Week
-
-### Week 6: (November 16) [Intro to Neuroscience](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_6_neuroscience)
-History, how neurons work (brief intro), neuroanatomy review, Rall's cable theory, membrane potential (Nernst, GHK, HH equations).
 
 ### Week 7: (November 23) [Intro to Angular](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_7_angular)
 Learning to make a simple web app
