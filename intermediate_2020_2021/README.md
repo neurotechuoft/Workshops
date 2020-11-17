@@ -33,7 +33,7 @@ We will rely on a few textbooks. Chapters 1-5 from the Deep Learning Book (freel
 * Statistics, calculus, optimization, linear algebra
 * Getting started with models
 
-### Week 4: (October 28) Event-Related Potentials (ERPs)
+### Week 4: (October 28) Event-Related Potentials (ERPs) (Moved to week 6)
 * Pre-process EEG data
 
 ### Week 5: (November 4) [ML II](https://github.com/neurotechuoft/Workshops/tree/master/intermediate_2020_2021/week_5_ML_II)
@@ -41,15 +41,13 @@ We will rely on a few textbooks. Chapters 1-5 from the Deep Learning Book (freel
 
 ### NOVEMBER 9-13: Reading Week
 
-### Week 6: (November 18) ML III
-* LDA, SVM
-    * math / stats behind them, implement by yourself
-* ERP detection (offline data)!!
+### Week 6: (November 18) Event-Related Potentials (ERPs)
+* Pre-process EEG data
 
 ### Week 7: (November 25) ERP Experimentation
 * Make your own EEG experiment! 
 
-### Week 8: (December 2) ML IV (last one)
+### Week 8: (December 2) ML III (last one)
 * Classify data from your EEG experiment
 
 ### DECEMBER 7-JANUARY 4: EXAM BREAK
@@ -77,6 +75,7 @@ We will rely on a few textbooks. Chapters 1-5 from the Deep Learning Book (freel
 
 ### Week 16: (March 10) Advanced Neurotech
 * Network interactions
+* Neural networks
 * Source localization
 
 ### Week 17: (March 17) ERP Classifier Working Session
