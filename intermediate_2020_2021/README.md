@@ -41,7 +41,7 @@ We will rely on a few textbooks. Chapters 1-5 from the Deep Learning Book (freel
 
 ### NOVEMBER 9-13: Reading Week
 
-### Week 6: (November 18) Event-Related Potentials (ERPs)
+### Week 6: (November 18) [Event-Related Potentials (ERPs)](https://github.com/neurotechuoft/Workshops/tree/master/intermediate_2020_2021/week_6_ERPs)
 * Pre-process EEG data
 
 ### Week 7: (November 25) ERP Experimentation
