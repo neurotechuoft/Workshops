@@ -7,6 +7,11 @@ Preparation:
 - Go through [SoloLearn's JavaScript tutorial](https://www.sololearn.com/play/javascript) up to Conditionals & Loops and Functions: If you already know the material up to this point, then "Take a Shortcut" and complete Objects and Core Objects
 - Go through [SoloLearn's HTML tutorial](https://www.sololearn.com/play/html) until you have completed HTML Basics. Already know HTML? Test your knowledge by selecting "Take a Shortcut" and go back to any sections you missed questions on
 
+Missed the Session?
+- [Lecture Slides](https://github.com/neurotechuoft/Workshops/blob/master/beginner_2020_2021/week_7_angular/week_7_angular.pdf)
+- [Lecture Recording](https://drive.google.com/file/d/15_3f_8m1ib2MpkKhUAmiADrk5IYuiBPT/view?usp=sharing)
+- Tutorial Activity: [Start](https://angular.io/start), [Adding Navigation](https://angular.io/start/start-routing)
+
 ## Install Node.js, npm, Angular
 To get started:
 - Install Node.js and npm from: https://nodejs.org/en/download/
