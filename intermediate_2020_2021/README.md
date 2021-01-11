@@ -52,33 +52,33 @@ We will rely on a few textbooks. Chapters 1-5 from the Deep Learning Book (freel
 
 ### DECEMBER 7-JANUARY 4: EXAM BREAK
 
-### Week 9: (January 13) Back end / cloud
+### Week 9: (January 20) Back end / cloud
 * Create real-time Python / Flask service for ML model
 
-### Week 10: (January 20) Intro to Electricity
+### Week 10: (January 27) Intro to Electricity
 
-### Week 11: (January 27) RLC Eircuits
+### Week 11: (February 3) RLC Circuits
 * Calc, differential equations
 * KCL / KVL, Thevenin's Theorem
 
-### Week 12: (February 3) Amplifiers & Analog Filters
-
-### Week 13: (February 10) EEG Device
-* Design your own EEG acquisition device
+### Week 12: (February 10) Amplifiers & Analog Filters
 
 ### FEBRUARY 15-19: READING WEEK
 
-### Week 14: (February 24) Internet of Things (IoT)
+### Week 13: (February 24) EEG Device
+* Design your own EEG acquisition device
 
-### Week 15: (March 3) Neuromodulation
+### Week 14: (March 3) Internet of Things (IoT)
+
+### Week 15: (March 10) Neuromodulation
 * Discover the applications of neurotechnology to neuromodulation, the process of regulating nerves through electrical/chemicals stimulation
 
-### Week 16: (March 10) Advanced Neurotech
+### Week 16: (March 17) Advanced Neurotech
 * Network interactions
 * Neural networks
 * Source localization
 
-### Week 17: (March 17) ERP Classifier Working Session
+### Week 17: (March 24) ERP Classifier Working Session
 
-### Week 18: (March 24) Present your ERP classifier!
+### Week 18: (March 31) Present your ERP classifier!
 Demo your classifier to NeurotechUofT faculty advisors—there will be prizes! (Event details TBA)
