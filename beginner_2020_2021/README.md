@@ -59,33 +59,36 @@ History, how neurons work (brief intro), neuroanatomy review, Rall's cable theor
 ### Week 7: (November 16) [Intro to Angular](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_7_angular)
 Learning to make a simple web app
 
-### Week 8: (November 23) [Intro to MuseJs](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_8_musejs), Milestone 1
-Front-end programming with Angular, signal acquisition from the Muse using MuseJs, BrainArt architecture, complete BrainArt Milestone 1.
+### Week 8: (November 23) [BrainArt working session](https://github.com/neurotechuoft/Workshops/blob/master/beginner_2020_2021/week_13_brainart)
+Dev session for BrainArt using brainart_starter
 
-### Week 10: (November 30) [Digital Signal Processing I](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_10_dsp1)
-Convolution, impulse responses, signal types, continuous vs discrete, aliasing, Nyquist's Theorem, FIR vs IIR, different types of filters, filter order.
+### Week 9: (November 30) [Intro to MuseJs](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_8_musejs), Milestone 1
+Front-end programming with Angular, signal acquisition from the Muse using MuseJs, BrainArt architecture, complete BrainArt Milestone 1.
+**Note:** This was another BrainArt working session, and there is no recording, but if you feel stuck on the brainart_starter To-Do's, the exercise linked here is a good place to start!
 
 ### DECEMBER 7-JANUARY 4: EXAM BREAK
+**Note:** Workshops after this point are subject to change—we may be adding some more interesting topics!
 
-### Week 11: (January 18) [Digital Signal Processing II](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_10_dsp1), Milestone 2
-Scenario-based practice of DSP I concepts, complete BrainArt Milestone 2.
-
-### Week 12: (January 25) [Uncovering Oscillatory Processes in EEG](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_12_eeg)
+### Week 10: (January 18) [Uncovering Oscillatory Processes in EEG](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_12_eeg)
 What exactly is EEG, physics of EEG, oscillatory processes vs ERPs, power spectral analysis for EEG power bands.
 
-### Week 13: (February 1) [BrainArt working session](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/brainart)
-Dev session for BrainArt (offline data), complete BrainArt Milestone 3.
+### Week 11: (November 25) [Digital Signal Processing I](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_10_dsp1)
+Convolution, impulse responses, signal types, continuous vs discrete, aliasing, Nyquist's Theorem, FIR vs IIR, different types of filters, filter order.
 
-### Week 14: (February 8) BrainArt working session, Milestone 3
+### Week 12: (February 1) [Digital Signal Processing II](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_10_dsp1), Milestone 2
+Scenario-based practice of DSP I concepts, complete BrainArt Milestone 2.
+
+### Week 13: (February 8) BrainArt working session, Milestone 3
+Dev session for BrainArt (offline data), complete BrainArt Milestone 3.
 
 ### FEBRUARY 15-19: READING WEEK
 
-### Week 15: (February 22) BrainArt working session
+### Week 14: (February 22) BrainArt working session
 
-### Week 16: (March 1) BrainArt working session, Milestone 4
+### Week 15: (March 1) BrainArt working session, Milestone 4
 Dev session for BrainArt (online with Muse), complete BrainArt Milestone 4.
 
-### Week 17: (March 8) Final BrainArt working session
+### Week 16: (March 8) Final BrainArt working session
 
-### Week 18: (March 15) Present brain art!
+### Week 17: (March 15) Present brain art!
 Present brain art piece to NeurotechUofT faculty advisors—there will be prizes! (Event details TBA)
