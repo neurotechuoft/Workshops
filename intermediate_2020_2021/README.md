@@ -44,41 +44,39 @@ We will rely on a few textbooks. Chapters 1-5 from the Deep Learning Book (freel
 ### Week 6: (November 18) [Event-Related Potentials (ERPs)](https://github.com/neurotechuoft/Workshops/tree/master/intermediate_2020_2021/week_6_ERPs)
 * Pre-process EEG data
 
-### Week 7: (November 25) ERP Experimentation
-* Make your own EEG experiment! 
-
-### Week 8: (December 2) ML III (last one)
-* Classify data from your EEG experiment
+### Week 7: (November 25) [ERP Experimentation](https://github.com/neurotechuoft/Workshops/tree/master/intermediate_2020_2021/week_7_ERP_experimentation)
+* Learn how to make your own EEG experiment! 
 
 ### DECEMBER 7-JANUARY 4: EXAM BREAK
+**Note:** Workshops after this point are subject to change! We are working on adding even more interesting neurotech topics
 
-### Week 9: (January 20) Back end / cloud
+### Week 8: (January 20) Neuromodulation
+* Discover the applications of neurotechnology to neuromodulation, the process of regulating nerves through electrical/chemicals stimulation
+
+### Week 9: (January 27) Back end / cloud
 * Create real-time Python / Flask service for ML model
 
-### Week 10: (January 27) Intro to Electricity
+### Week 10: (February 3) Intro to Electricity
 
-### Week 11: (February 3) RLC Circuits
+### Week 11: (February 10) RLC Circuits
 * Calc, differential equations
 * KCL / KVL, Thevenin's Theorem
 
-### Week 12: (February 10) Amplifiers & Analog Filters
-
 ### FEBRUARY 15-19: READING WEEK
 
-### Week 13: (February 24) EEG Device
+### Week 12: (February 24) Amplifiers & Analog Filters
+
+### Week 13: (March 3) EEG Device
 * Design your own EEG acquisition device
 
-### Week 14: (March 3) Internet of Things (IoT)
+### Week 14: (March 10) Internet of Things (IoT)
 
-### Week 15: (March 10) Neuromodulation
-* Discover the applications of neurotechnology to neuromodulation, the process of regulating nerves through electrical/chemicals stimulation
-
-### Week 16: (March 17) Advanced Neurotech
+### Week 15: (March 17) Advanced Neurotech
 * Network interactions
 * Neural networks
 * Source localization
 
-### Week 17: (March 24) ERP Classifier Working Session
+### Week 16: (March 24) ERP Classifier Working Session
 
-### Week 18: (March 31) Present your ERP classifier!
+### Week 17: (March 31) Present your ERP classifier!
 Demo your classifier to NeurotechUofT faculty advisors—there will be prizes! (Event details TBA)
