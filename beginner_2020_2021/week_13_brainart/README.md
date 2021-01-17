@@ -1,3 +1,6 @@
+# Starting BrainArt
+[Lecture Recording](https://drive.google.com/file/d/17EW0o6rC0Fq8Z7VzzObuFo249s68ujF3/view?usp=sharing)
+
 # Week 13 and Onward: BrainArt 
 
 Use [brainart_starter](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_13_brainart/brainart_starter) as a template for your BrainArt.
