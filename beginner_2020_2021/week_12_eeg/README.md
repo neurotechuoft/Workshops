@@ -6,4 +6,4 @@ Preparation:
 - Review [Week 6](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_6_neuroscience)
 
 Materials:
-- [Lecture](https://github.com/neurotechuoft/Workshops/blob/master/beginner_2020_2021/week_12_eeg/oscillatory_processes_eeg.pdf)
+- [Lecture](https://github.com/neurotechuoft/Workshops/blob/master/beginner_2020_2021/week_12_eeg/EEG_lecture.pdf)
