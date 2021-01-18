@@ -1,4 +1,4 @@
-# Week 11: (January 25) Uncovering Oscillatory Processes in EEG
+# Week 10: (January 18) Uncovering Oscillatory Processes in EEG
 ### What exactly is EEG, physics of EEG, oscillatory processes vs ERPs, power spectral analysis for EEG power bands.
 
 Preparation:
