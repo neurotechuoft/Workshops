@@ -7,3 +7,4 @@ Preparation:
 
 Materials:
 - [Lecture](https://github.com/neurotechuoft/Workshops/blob/master/beginner_2020_2021/week_12_eeg/EEG_lecture.pdf)
+- [Lecture Recording](https://drive.google.com/file/d/1CVTmENbb8DT3yZE65FD43dmpaWO4LxiG/view?usp=sharing)
