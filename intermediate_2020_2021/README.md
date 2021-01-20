@@ -50,7 +50,7 @@ We will rely on a few textbooks. Chapters 1-5 from the Deep Learning Book (freel
 ### DECEMBER 7-JANUARY 4: EXAM BREAK
 **Note:** Workshops after this point are subject to change! We are working on adding even more interesting neurotech topics
 
-### Week 8: (January 20) Neuromodulation
+### Week 8: (January 20) [Neuromodulation](https://github.com/neurotechuoft/Workshops/tree/master/intermediate_2020_2021/week_8_neuromodulation)
 * Discover the applications of neurotechnology to neuromodulation, the process of regulating nerves through electrical/chemicals stimulation
 
 ### Week 9: (January 27) Back end / cloud
