@@ -53,10 +53,10 @@ We will rely on a few textbooks. Chapters 1-5 from the Deep Learning Book (freel
 ### Week 8: (January 27) [Neuromodulation](https://github.com/neurotechuoft/Workshops/tree/master/intermediate_2020_2021/week_8_neuromodulation)
 * Discover the applications of neurotechnology to neuromodulation, the process of regulating nerves through electrical/chemicals stimulation
 
-### Week 9: (February 3) Back end / cloud
-* Create real-time Python / Flask service for ML model
+### Week 9: (February 3) Intro to Electricity
 
-### Week 10: (February 10) Intro to Electricity
+### Week 10: (February 10) Back end / cloud
+* Create real-time Python / Flask service for ML model
 
 ### FEBRUARY 15-19: READING WEEK
 
