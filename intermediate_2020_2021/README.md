@@ -53,28 +53,25 @@ We will rely on a few textbooks. Chapters 1-5 from the Deep Learning Book (freel
 ### Week 8: (January 27) [Neuromodulation](https://github.com/neurotechuoft/Workshops/tree/master/intermediate_2020_2021/week_8_neuromodulation)
 * Discover the applications of neurotechnology to neuromodulation, the process of regulating nerves through electrical/chemicals stimulation
 
-### Week 9: (February 3) Intro to Electricity
-
-### Week 10: (February 10) Back end / cloud
-* Create real-time Python / Flask service for ML model
+### Week 9: (February 3) [Electricity in Neurotech](https://github.com/neurotechuoft/Workshops/tree/master/intermediate_2020_2021/week_9_electricity)
 
 ### FEBRUARY 15-19: READING WEEK
 
-### Week 11: (February 24) RLC Circuits
+### Week 10; (February 24) [Digital Signal Processing](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_10_dsp1)
+
+### Week 11: (March 3) Back end / cloud
+* Create real-time Python / Flask service for ML model
+
+### Week 12: (March 10) RLC Circuits
 * Calc, differential equations
 * KCL / KVL, Thevenin's Theorem
 
-### Week 12: (March 3) Amplifiers & Analog Filters
+### Week 13: (March 17) Amplifiers & Analog Filters
 
-### Week 13: (March 10) EEG Device
+### Week 14: (March 24) EEG Device
 * Design your own EEG acquisition device
 
-### Week 14: (March 17) Advanced Neurotech
+### Week 15: (March 31) Advanced Neurotech
 * Network interactions
 * Neural networks
 * Source localization
-
-### Week 15: (March 24) ERP Classifier Working Session
-
-### Week 16: (March 31) Present your ERP classifier!
-Demo your classifier to NeurotechUofT faculty advisors—there will be prizes! (Event details TBA)
