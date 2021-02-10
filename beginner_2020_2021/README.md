@@ -72,23 +72,18 @@ Front-end programming with Angular, signal acquisition from the Muse using MuseJ
 ### Week 10: (January 18) [Uncovering Oscillatory Processes in EEG](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_12_eeg)
 What exactly is EEG, physics of EEG, oscillatory processes vs ERPs, power spectral analysis for EEG power bands.
 
-### Week 11: (January 25) [Digital Signal Processing I](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_10_dsp1)
-Convolution, impulse responses, signal types, continuous vs discrete, aliasing, Nyquist's Theorem, FIR vs IIR, different types of filters, filter order.
-
-### Week 12: (February 1) [Digital Signal Processing II](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_10_dsp1), Milestone 2
-Scenario-based practice of DSP I concepts, complete BrainArt Milestone 2.
-
-### Week 13: (February 8) BrainArt working session, Milestone 3
+### Week 11: (February 8) BrainArt working session, Milestone 3
 Dev session for BrainArt (offline data), complete BrainArt Milestone 3.
 
 ### FEBRUARY 15-19: READING WEEK
 
-### Week 14: (February 22) BrainArt working session
+### Week 12: (February 24—Wednesday, not Monday!) [Digital Signal Processing I](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_10_dsp1)
+Convolution, impulse responses, signal types, continuous vs discrete, aliasing, Nyquist's Theorem, FIR vs IIR, different types of filters, filter order.
 
-### Week 15: (March 1) BrainArt working session, Milestone 4
+### Week 13: (March 1) [Digital Signal Processing II](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_10_dsp1), Milestone 2
+Scenario-based practice of DSP I concepts, complete BrainArt Milestone 2.
+
+### Week 14: (March 8) BrainArt working session, Milestone 4
 Dev session for BrainArt (online with Muse), complete BrainArt Milestone 4.
 
-### Week 16: (March 8) Final BrainArt working session
-
-### Week 17: (March 15) Present brain art!
-Present brain art piece to NeurotechUofT faculty advisors—there will be prizes! (Event details TBA)
+### Week 15: (March 15) Final BrainArt working session
