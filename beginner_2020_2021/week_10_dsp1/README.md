@@ -3,7 +3,7 @@
 
 Prepraration:
 - [Introduction to Filters: FIR versus IIR](https://community.plm.automation.siemens.com/t5/Testing-Knowledge-Base/Introduction-to-Filters-FIR-versus-IIR/ta-p/520959)
-- Review [Week 9](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_9_convolution_fourier)
+- Review Chapters [10](https://github.com/neurotechuoft/Workshops/blob/master/beginner_2020_2021/week_10_dsp1/chap10.pdf) and [11](https://github.com/neurotechuoft/Workshops/blob/master/beginner_2020_2021/week_10_dsp1/chap11.pdf) from **Analyzing Neural Time Series Data**
 
 Materials: 
-- [Lecture](https://github.com/neurotechuoft/Workshops/blob/master/beginner_2020_2021/week_10_dsp1/digital_signal_processing.pdf)
+- [Lecture](https://github.com/neurotechuoft/Workshops/blob/master/beginner_2020_2021/week_10_dsp1/dsp_lecture.pdf)
