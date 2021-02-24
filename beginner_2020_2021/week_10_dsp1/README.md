@@ -7,3 +7,8 @@ Prepraration:
 
 Materials: 
 - [Lecture](https://github.com/neurotechuoft/Workshops/blob/master/beginner_2020_2021/week_10_dsp1/dsp_lecture.pdf)
+
+Python Notebooks:
+- [Sampling Theorem](https://nbviewer.jupyter.org/github/unpingco/Python-for-Signal-Processing/blob/master/Sampling_Theorem.ipynb)
+- [Fourier Transform](https://nbviewer.jupyter.org/github/unpingco/Python-for-Signal-Processing/blob/master/Fourier_Transform.ipynb)
+- [Filtering](https://nbviewer.jupyter.org/github/unpingco/Python-for-Signal-Processing/blob/master/Filtering.ipynb)
