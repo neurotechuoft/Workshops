@@ -19,6 +19,8 @@ We will rely on a few textbooks. Chapters 1-5 from the Deep Learning Book (freel
 * Design and build an EEG acquisition circuit
 * Complete circuit and model for real-time ERP classification
 
+**Note: the course project and milestones stated above will apply for the next round of the Intermediate Workshops—we're still perfecting this new series!**
+
 ## Syllabus
 
 ### Week 1: (September 30) [Dissecting Journal Articles](https://github.com/neurotechuoft/Workshops/tree/master/intermediate_2020_2021/week_1_dissecting_journal_articles)
@@ -57,21 +59,11 @@ We will rely on a few textbooks. Chapters 1-5 from the Deep Learning Book (freel
 
 ### FEBRUARY 15-19: READING WEEK
 
-### Week 10; (February 24) [Digital Signal Processing](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_10_dsp1)
+### Week 10: (February 24) [Digital Signal Processing](https://github.com/neurotechuoft/Workshops/tree/master/beginner_2020_2021/week_10_dsp1)
 
-### Week 11: (March 3) Back end / cloud
-* Create real-time Python / Flask service for ML model
+### Week 11: (March 10) [ERP Classification](https://mybinder.org/v2/gh/Mark-Kramer/Case-Studies-Python/binder?urlpath=tree/02.ipynb)
+* Clicking the link above will take you to an exercise that will walk you through a case study for ERPs in Python!
+* There are more exercises associated with the textbook this comes from—check them out [here](https://mark-kramer.github.io/Case-Studies-Python/intro.html) if you're interested
 
-### Week 12: (March 10) RLC Circuits
-* Calc, differential equations
-* KCL / KVL, Thevenin's Theorem
+## Next Session: April 7 (Topic TBD)
 
-### Week 13: (March 17) Amplifiers & Analog Filters
-
-### Week 14: (March 24) EEG Device
-* Design your own EEG acquisition device
-
-### Week 15: (March 31) Advanced Neurotech
-* Network interactions
-* Neural networks
-* Source localization
