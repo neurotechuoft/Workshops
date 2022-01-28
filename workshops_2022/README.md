@@ -23,5 +23,31 @@ There is no official textbook for this course; however, we will be providing rea
 
 ## Syllabus:
 
-### Week 1: (February 7) Intro to Neuroscience
+### Week 1: Intro to Neuroscience
 Basic neuroanatomy, synapses and neuronal signalling, and the electroencephalogram (EEG) 
+
+### Week 2: Intro to Python
+Absolute basics of programming, practice problem solving
+
+### Week 3: Graphing & Filtering EEG Data
+* How to load EEG data from CSVs (or FIFs) and graph it with MatPlotLib
+* Filtering noise and an introduction to the Fast Fourier Transform
+
+### Week 4: Signal Processing
+Convolution, Fourier transform, impulse responses, signal types, continuous vs. discrete, aliasing, Nyquist's Theorem, FIR vs IIR, different types of filters, filter order
+
+### Week 5: Uncovering Oscillatory Processes in EEG
+What exactly is EEG, physics of EEG, oscillatory processes vs ERPs, power spectral analysis for EEG power bands
+
+### Week 6: Intro to Machine Learning
+
+### Week 7: Event-Related Potentials
+
+### Week 8: Intro to React
+Front-end programming, the "interface" part of the brain-computer interface
+
+### Week 9: Intro to MuseJs
+Signal acquisition from the Muse using MuseJs
+
+### Week 10: Real-Time Analysis & Cloud Computing
+
