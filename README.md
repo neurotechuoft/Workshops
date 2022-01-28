@@ -18,8 +18,7 @@ Each week, students will work in pairs to go through a notebook, filling in the 
 ## Textbook
 There is no official textbook for this course; however, we will be providing readings and resources throughout that will function as our own quasi-textboook! 
 
-### (To sync this version of workshops with your version, follow the instructions in this link!)
-https://www.sitepoint.com/quick-tip-sync-your-fork-with-the-original-without-the-cli/
+### (To sync this version of workshops with your version, follow the instructions in [this link](https://www.sitepoint.com/quick-tip-sync-your-fork-with-the-original-without-the-cli/)!)
 
 
 ## Syllabus:
