@@ -23,6 +23,6 @@ There is no official textbook for this course; however, we will be providing rea
 
 ## Syllabus:
 
-### Week 1: (February 7) Intro to Neuroscience
+### Week 1: (February 17) Intro to Neuroscience
 Basic neuroanatomy, synapses and neuronal signalling, and the electroencephalogram (EEG) 
 
