@@ -23,7 +23,7 @@ There is no official textbook for this course; however, we will be providing rea
 
 ## Syllabus:
 
-### Week 1: Intro to Neuroscience
+### Week 1: [Intro to Neuroscience](https://github.com/neurotechuoft/Workshops/tree/master/workshops_2022/week1)
 Basic neuroanatomy, synapses and neuronal signalling, and the electroencephalogram (EEG) 
 
 ### Week 2: Intro to Python
