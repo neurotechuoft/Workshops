@@ -5,5 +5,5 @@
 Before starting exercises, download [stare_blink.csv](https://drive.google.com/file/d/1BtOnJefOJ1aGiChy1nocoj2tB_qoP4xY/view?usp=sharing)
 
 Exercises:
-- [1: Loading & Graphing](https://github.com/neurotechuoft/Workshops/blob/master/workshops_2022/week1/week1_neuro.pdf)
-- [2: Filtering](https://drive.google.com/file/d/1iQXu1khb4V8BTPEJ1uDaGnzaFGkK0FCb/view?usp=sharing)
+- [1: Loading & Graphing](https://colab.research.google.com/github/neurotechuoft/Workshops/blob/master/workshops_2022/week3/Exercises/graphing_loading_data.ipynb)
+- [2: Filtering](https://colab.research.google.com/github/neurotechuoft/Workshops/blob/master/workshops_2022/week3/Exercises/noise_filtering.ipynb)
