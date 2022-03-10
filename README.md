@@ -36,10 +36,10 @@ Absolute basics of programming, practice problem solving
 ### Week 4: Signal Processing
 Convolution, Fourier transform, impulse responses, signal types, continuous vs. discrete, aliasing, Nyquist's Theorem, FIR vs IIR, different types of filters, filter order
 
-### Week 5: Uncovering Oscillatory Processes in EEG
-What exactly is EEG, physics of EEG, oscillatory processes vs ERPs, power spectral analysis for EEG power bands
+### Week 5: Intro to Machine Learning
 
-### Week 6: Intro to Machine Learning
+### Week 6: Uncovering Oscillatory Processes in EEG
+What exactly is EEG, physics of EEG, oscillatory processes vs ERPs, power spectral analysis for EEG power bands
 
 ### Week 7: Event-Related Potentials
 
