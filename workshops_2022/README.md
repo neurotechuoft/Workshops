@@ -26,7 +26,7 @@ There is no official textbook for this course; however, we will be providing rea
 ### Week 1: [Intro to Neuroscience](https://github.com/neurotechuoft/Workshops/tree/master/workshops_2022/week1)
 Basic neuroanatomy, synapses and neuronal signalling, and the electroencephalogram (EEG) 
 
-### Week 2: Intro to Python
+### Week 2: [Intro to Python](http://bit.ly/ntuoft-workshop-2)
 Absolute basics of programming, practice problem solving
 
 ### Week 3: [Graphing & Filtering EEG Data](https://github.com/neurotechuoft/Workshops/tree/master/workshops_2022/week3)
@@ -36,10 +36,10 @@ Absolute basics of programming, practice problem solving
 ### Week 4: Signal Processing
 Convolution, Fourier transform, impulse responses, signal types, continuous vs. discrete, aliasing, Nyquist's Theorem, FIR vs IIR, different types of filters, filter order
 
-### Week 5: Uncovering Oscillatory Processes in EEG
-What exactly is EEG, physics of EEG, oscillatory processes vs ERPs, power spectral analysis for EEG power bands
+### Week 5: Intro to Machine Learning
 
-### Week 6: Intro to Machine Learning
+### Week 6: Uncovering Oscillatory Processes in EEG
+What exactly is EEG, physics of EEG, oscillatory processes vs ERPs, power spectral analysis for EEG power bands
 
 ### Week 7: Event-Related Potentials
 
