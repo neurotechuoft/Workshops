@@ -29,7 +29,7 @@ Basic neuroanatomy, synapses and neuronal signalling, and the electroencephalogr
 ### Week 2: Intro to Python
 Absolute basics of programming, practice problem solving
 
-### Week 3: Graphing & Filtering EEG Data
+### Week 3: [Graphing & Filtering EEG Data](https://github.com/neurotechuoft/Workshops/tree/master/workshops_2022/week3)
 * How to load EEG data from CSVs (or FIFs) and graph it with MatPlotLib
 * Filtering noise and an introduction to the Fast Fourier Transform
 
