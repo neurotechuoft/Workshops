@@ -26,7 +26,7 @@ There is no official textbook for this course; however, we will be providing rea
 ### Week 1: [Intro to Neuroscience](https://github.com/neurotechuoft/Workshops/tree/master/workshops_2022/week1)
 Basic neuroanatomy, synapses and neuronal signalling, and the electroencephalogram (EEG) 
 
-### Week 2: [Intro to Python](http://bit.ly/ntuoft-workshop-2)
+### Week 2: [Intro to Python](https://github.com/neurotechuoft/Workshops/tree/master/workshops_2022/week2)
 Absolute basics of programming, practice problem solving
 
 ### Week 3: [Graphing & Filtering EEG Data](https://github.com/neurotechuoft/Workshops/tree/master/workshops_2022/week3)
