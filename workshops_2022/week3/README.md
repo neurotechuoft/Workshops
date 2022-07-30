@@ -1,8 +1,9 @@
 # Week 3: (July 21) Graphing & Filtering EEG Data
-### How to load EEG data from CSVs (or FIFs) and graph it with MatPlotLib
-### Filtering noise and an introduction to the Fast Fourier Transform
+### Graph and Filter EEG Data from raw data using Google Colab and more
 
+Before starting exercises, download [sub-P001_ses-S001_task-T1_run-001_eeg.xdf](https://drive.google.com/file/d/11hE-ZG2Exwsqla-YDh41NObZoyZx0bk3/view?usp=sharing)
 
-Exercises:
-- [1: Loading & Graphing](https://colab.research.google.com/github/neurotechuoft/Workshops/blob/master/workshops_2022/week3/Exercises/graphing_loading_data.ipynb)
+- [Loading & Graphing Exercise](https://colab.research.google.com/drive/1Xiub4YTQb-kZrhltciciyiwPGGdF9DEG?usp=sharing)
+- [Slide](https://docs.google.com/presentation/d/1bqvJ8HvtjXwivF-B7IG4aXAvuR8pt3mq4kh28DiDOrI/edit?usp=sharing)
 - [Recording](https://drive.google.com/file/d/1515FOoq1PrwTS9yL4-acpRIj_VPax1iY/view?usp=sharing)
+
