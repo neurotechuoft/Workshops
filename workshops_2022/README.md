@@ -30,8 +30,7 @@ Basic neuroanatomy, synapses and neuronal signalling, and the electroencephalogr
 Absolute basics of programming, practice problem solving
 
 ### Week 3: [Graphing & Filtering EEG Data](https://github.com/neurotechuoft/Workshops/tree/master/workshops_2022/week3)
-* How to load EEG data from CSVs (or FIFs) and graph it with MatPlotLib
-* Filtering noise and an introduction to the Fast Fourier Transform
+Graph and Filter EEG Data from raw data using Google Colab and more
 
 ### Week 4: Signal Processing
 Convolution, Fourier transform, impulse responses, signal types, continuous vs. discrete, aliasing, Nyquist's Theorem, FIR vs IIR, different types of filters, filter order
