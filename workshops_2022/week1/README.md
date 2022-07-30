@@ -1,4 +1,4 @@
-# Week 1: (February 26) Intro to Neuroscience
+# Week 1: (July 7) Intro to Neuroscience
 ### Basic neuroanatomy, synapses and neuronal signalling, and the electroencephalogram (EEG)
 
 Lecture:
