@@ -32,7 +32,7 @@ Absolute basics of programming, practice problem solving
 ### Week 3: [Graphing & Filtering EEG Data](https://github.com/neurotechuoft/Workshops/tree/master/workshops_2022/week3)
 Graph and Filter EEG Data from raw data using Google Colab and more
 
-### Week 4: Signal Processing
+### Week 4: [Signal Processing](https://github.com/neurotechuoft/Workshops/tree/master/workshops_2022/week4)
 Convolution, Fourier transform, impulse responses, signal types, continuous vs. discrete, aliasing, Nyquist's Theorem, FIR vs IIR, different types of filters, filter order
 
 ### Week 5: Intro to Machine Learning
