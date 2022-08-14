@@ -35,7 +35,7 @@ Graph and Filter EEG Data from raw data using Google Colab and more
 ### Week 4: [Signal Processing](https://github.com/neurotechuoft/Workshops/tree/master/workshops_2022/week4)
 Convolution, Fourier transform, impulse responses, signal types, continuous vs. discrete, aliasing, Nyquist's Theorem, FIR vs IIR, different types of filters, filter order
 
-### Week 5: Intro to Machine Learning
+### Week 5: [Intro to Machine Learning](https://github.com/neurotechuoft/Workshops/tree/master/workshops_2022/week5)
 
 ### Week 6: Uncovering Oscillatory Processes in EEG
 What exactly is EEG, physics of EEG, oscillatory processes vs ERPs, power spectral analysis for EEG power bands
