@@ -1,5 +1,4 @@
-# Week 4: (July 28) Signal Processing
-### Convolution, Fourier transform, impulse responses, signal types, continuous vs. discrete, aliasing, Nyquist's Theorem, FIR vs IIR, different types of filters, filter order
+# Week 5: (August 11) Intro to Machine Learning
 
-- [Slide](https://github.com/neurotechuoft/Workshops/blob/master/workshops_2022/week4/Signal%20Processing%20Slides.pdf)
+- [Slides](https://docs.google.com/presentation/d/1kSuQyW5DTnkVaZEjGYCkfOxvzCqGEFzWBy4e9Uedd9k/edit#slide=id.g168a3288f7_0_58)
 - [Recording](https://drive.google.com/drive/u/0/folders/10LnPfgFaH11nygd9r34Wh-zCEqJ63cMU)
