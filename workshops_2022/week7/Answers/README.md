@@ -1,0 +1,1 @@
+Answers for the week 7 exercises
